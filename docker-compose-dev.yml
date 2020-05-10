@@ -1,0 +1,14 @@
+version: "3.3"
+services:
+
+  dico:
+    container_name: dico
+    image: "dico/dico:dev"
+    command: ["make", "--file", "dev.mk", "dev"]
+    volumes:
+      - ".:/repo/"
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+      args:
+        USER_ID: "${USER_ID:?}"
