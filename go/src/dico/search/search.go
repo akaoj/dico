@@ -2,12 +2,12 @@ package search
 
 import (
 	"database/sql"
-	"errors"
 
+	dicodb "dico/db"
 	"dico/utils"
 )
 
 
-func Search(db *sql.DB, words string) (results []utils.Word, err error) {
-	return nil, errors.New("")
+func Search(db *sql.DB, language string, words string) ([]utils.Word, error) {
+	return dicodb.Select(db, language, words)
 }

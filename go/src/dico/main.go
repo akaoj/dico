@@ -26,6 +26,7 @@ func main() {
 	var versionOpt *bool = getopt.BoolLong("version", 'v', "", "show dico version")
 	var collectOpt *string = getopt.StringLong("collect", 'c', "", "collect words at <path>", "path")
 	var dictPathOpt *string = getopt.StringLong("dictionary", 'd', "", "path of the dictionary", "path")
+	var languageOpt *string = getopt.StringLong("language", 'l', "", "language")
 	getopt.Parse()
 
 	// Non-standard workflow
@@ -81,7 +82,7 @@ func main() {
 		}
 	}
 
-	// Dictionary is avilable, we can prepare a connection to it (all subsequent steps will need a DB connection)
+	// Dictionary is available, we can prepare a connection to it (all subsequent steps will need a DB connection)
 	var db *sql.DB
 	var ctx context.Context
 	var ctxCancel context.CancelFunc
@@ -121,13 +122,18 @@ func main() {
 	}
 
 	// Standard workflow: we need to retrieve the string the user search and process it
-	var args string = strings.Join(getopt.Args(), " ")
+	var searchQuery string = strings.Join(getopt.Args(), " ")
 
-	var results []utils.Word
+	if *languageOpt == "" {
+		// Default to English
+		*languageOpt = "en"
+	}
 
-	results, err = search.Search(db, args)
+	var words []utils.Word
 
-	for _, v := range results {
-		fmt.Println("Found " + v.Word + "\n" + strings.Join(v.Definitions, ", ") )
+	words, err = search.Search(db, *languageOpt, searchQuery)
+
+	for _, v := range words {
+		fmt.Println(v.Format())
 	}
 }
