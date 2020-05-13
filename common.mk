@@ -94,7 +94,7 @@ help:
 	@echo "$$HELP_CONTENT"
 
 
-build: clean _dev_image
+build: _dev_image
 	mkdir -p build/
 	$(call container_make,build,)
 
