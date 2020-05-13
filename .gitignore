@@ -1,3 +1,4 @@
+/.make.*
 /build/
 /.cache/
 /go/bin/

@@ -7,10 +7,12 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 
 	"dico/collect"
 	dicodb "dico/db"
+	"dico/fetch"
 	"dico/search"
 	"dico/utils"
 
@@ -22,12 +24,26 @@ import (
 var VERSION string = "dev"
 
 func main() {
+	var err error
 	var helpOpt *bool = getopt.BoolLong("help", 'h', "", "show this help")
 	var versionOpt *bool = getopt.BoolLong("version", 'v', "", "show dico version")
-	var collectOpt *string = getopt.StringLong("collect", 'c', "", "collect words at <path>", "path")
+	var collectOpt *string = getopt.StringLong("collect", 0, "", "collect words at <path>", "path")
 	var dictPathOpt *string = getopt.StringLong("dictionary", 'd', "", "path of the dictionary", "path")
 	var languageOpt *string = getopt.StringLong("language", 'l', "", "language")
+	var fetchOpt *bool = getopt.BoolLong("fetch", 0, "", "fetch words given to stdin from authoritative dictionaries online")
+	var fetchToOpt *string = getopt.StringLong("fetch-to", 0, "", "fetch words to the given path", "path")
 	getopt.Parse()
+
+	if *languageOpt == "" {
+		// Default to English
+		*languageOpt = "en"
+	}
+
+	var ctx context.Context
+	var ctxCancel context.CancelFunc
+
+	ctx, ctxCancel = context.WithCancel(context.Background())
+	defer ctxCancel()
 
 	// Non-standard workflow
 	switch {
@@ -37,11 +53,24 @@ func main() {
 	case *versionOpt:
 		fmt.Fprintln(os.Stderr, "dico version " + VERSION)
 		os.Exit(0)
+	case *fetchOpt:
+		if *fetchToOpt == "" {
+			fmt.Fprintln(os.Stderr, "You must provide the --fetch-to flag")
+			os.Exit(1)
+		}
+		fmt.Println("Fetching words; this may take a very long time depending on the amount of words to fetch")
+		var amount int
+		amount, err = fetch.FetchWords(ctx, os.Stdin, *languageOpt, *fetchToOpt)
+		if err != nil {
+			fmt.Fprintln(os.Stderr, err)
+			os.Exit(1)
+		}
+		fmt.Println(strconv.Itoa(amount) + " words fetched, stored in folder " + *fetchToOpt + "/")
+		os.Exit(0)
 	}
 
 	// We will try to find a valid dictionary
 	var dictPath string
-	var err error
 
 	dictPath, err = utils.FindDictionaryPath(*dictPathOpt)
 	if err != nil {
@@ -84,8 +113,6 @@ func main() {
 
 	// Dictionary is available, we can prepare a connection to it (all subsequent steps will need a DB connection)
 	var db *sql.DB
-	var ctx context.Context
-	var ctxCancel context.CancelFunc
 
 	db, err = sql.Open("sqlite3", dictPath)
 	if err != nil {
@@ -93,9 +120,6 @@ func main() {
 		os.Exit(1)
 	}
 	defer db.Close()
-
-	ctx, ctxCancel = context.WithCancel(context.Background())
-	defer ctxCancel()
 
 	// Special case: collect words from folder
 	if *collectOpt != "" {
@@ -123,11 +147,6 @@ func main() {
 
 	// Standard workflow: we need to retrieve the string the user search and process it
 	var searchQuery string = strings.Join(getopt.Args(), " ")
-
-	if *languageOpt == "" {
-		// Default to English
-		*languageOpt = "en"
-	}
 
 	var words []utils.Word
 

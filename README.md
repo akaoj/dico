@@ -6,13 +6,13 @@ The dictionary. In git. Yep.
 # Organization
 
 All words are available within each language folder.
-A word file is a YAML file which includes at least:
+A word file is a YAML file which defines:
 
 ```yaml
----
-word: "banana"
+language: en
+word: banana
 type: noun
-etymology: "From Wolof banaana, via Spanish or Portuguese."
+etymology: From Wolof banaana, via Spanish or Portuguese.
 definitions:
   - An elongated curved tropical fruit that grows in bunches and has a creamy flesh and a smooth skin.
   - A yellow colour, like that of a banana's skin.
