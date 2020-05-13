@@ -25,14 +25,38 @@ var VERSION string = "dev"
 
 func main() {
 	var err error
-	var helpOpt *bool = getopt.BoolLong("help", 'h', "", "show this help")
-	var versionOpt *bool = getopt.BoolLong("version", 'v', "", "show dico version")
-	var collectOpt *string = getopt.StringLong("collect", 0, "", "collect words at <path>", "path")
-	var dictPathOpt *string = getopt.StringLong("dictionary", 'd', "", "path of the dictionary", "path")
-	var languageOpt *string = getopt.StringLong("language", 'l', "", "language")
-	var fetchOpt *bool = getopt.BoolLong("fetch", 0, "", "fetch words given to stdin from authoritative dictionaries online")
-	var fetchToOpt *string = getopt.StringLong("fetch-to", 0, "", "fetch words to the given path", "path")
+	var helpOpt *bool = getopt.BoolLong("help", 'h', "Show this help.")
+	var versionOpt *bool = getopt.BoolLong("version", 'v', "Show dico version.")
+	var collectOpt *string = getopt.StringLong("collect", 0, "", "Collect words at path.\n" +
+	                                                             "Use this option when you want to generate a database from YAML files.\n" +
+	                                                             "Note that the language flag does not apply here given that all languages found in the collect folder will be collected.", "path")
+	var dictPathOpt *string = getopt.StringLong("dictionary", 'd', "", "Path of the dictionary.", "path")
+	var languageOpt *string = getopt.StringLong("language", 'l', "", "Language to work on.\n" +
+	                                                                 "This flag may be provided for fetching and searching words.", "language")
+	var fetchOpt *bool = getopt.BoolLong("fetch", 0, "Fetch words given to stdin from authoritative dictionaries online.\n" +
+	                                                 "It has to be a list of words separated by a newline (\"\\n\").\n" +
+	                                                 "These words will be sent to the online provider for definition retrieval.\n" +
+	                                                 "If a word is not found, it will be silently ignored.\n" +
+	                                                 "For every word found, a corresponding YAML file will be created in the path defined by --fetch-to.\n" +
+	                                                 "Note that you also must set the --fetch-to flag with this option." )
+	var fetchToOpt *string = getopt.StringLong("fetch-to", 0, "", "Fetch words to the given path.\n" +
+	                                                              "Already existing words will be overwritten.", "path")
 	getopt.Parse()
+
+	const usageExamples string = `
+Examples:
+
+To retrieve the definitions for a list of French words and store them in the data/ folder:
+  echo -e "baguette\noui\nmerci" | dico -l fr --fetch --fetch-to=data/
+
+To collect the definitions available in data/ and put them in the database
+(database location defaults at ~/.local/share/dico/dico.db):
+  dico --collect=data/
+
+To search for a definition for a French word (default language, when --language is not provided, is "en"):
+  dico -l fr baguette
+
+Note: search functionality requires a database.`
 
 	if *languageOpt == "" {
 		// Default to English
@@ -49,6 +73,7 @@ func main() {
 	switch {
 	case *helpOpt:
 		getopt.PrintUsage(os.Stderr)
+		fmt.Fprintln(os.Stderr, usageExamples)
 		os.Exit(0)
 	case *versionOpt:
 		fmt.Fprintln(os.Stderr, "dico version " + VERSION)
@@ -62,10 +87,10 @@ func main() {
 		var amount int
 		amount, err = fetch.FetchWords(ctx, os.Stdin, *languageOpt, *fetchToOpt)
 		if err != nil {
-			fmt.Fprintln(os.Stderr, err)
+			fmt.Fprintln(os.Stderr, "Error: " + err.Error())
 			os.Exit(1)
 		}
-		fmt.Println(strconv.Itoa(amount) + " words fetched, stored in folder " + *fetchToOpt + "/")
+		fmt.Println(strconv.Itoa(amount) + " words fetched, stored in folder " + *fetchToOpt)
 		os.Exit(0)
 	}
 
@@ -74,7 +99,7 @@ func main() {
 
 	dictPath, err = utils.FindDictionaryPath(*dictPathOpt)
 	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
+		fmt.Fprintln(os.Stderr, "Error: " + err.Error())
 		os.Exit(1)
 	}
 
@@ -82,7 +107,7 @@ func main() {
 	// we'll create a new one if needed)
 	if dictPath == "" {
 		if *collectOpt == ""{
-			fmt.Fprintln(os.Stderr, errors.New("Can't find the dictionary in any of " + strings.Join(utils.DictionaryPaths, ", ")))
+			fmt.Fprintln(os.Stderr, errors.New("Error: Can't find the dictionary in any of " + strings.Join(utils.DictionaryPaths, ", ")))
 			os.Exit(1)
 		} else {
 			// If we're collecting words and no dictionary is found, we create it
@@ -116,7 +141,7 @@ func main() {
 
 	db, err = sql.Open("sqlite3", dictPath)
 	if err != nil {
-		fmt.Fprintln(os.Stderr, err)
+		fmt.Fprintln(os.Stderr, "Error: " + err.Error())
 		os.Exit(1)
 	}
 	defer db.Close()
@@ -136,7 +161,7 @@ func main() {
 
 		select {
 		case err = <- errChan:
-			fmt.Fprintln(os.Stderr, err.Error())
+			fmt.Fprintln(os.Stderr, "Error: " + err.Error())
 			ctxCancel()
 			os.Exit(1)
 		case <-doneChan:
