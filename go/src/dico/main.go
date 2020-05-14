@@ -41,13 +41,16 @@ func main() {
 	                                                 "Note that you also must set the --fetch-to flag with this option." )
 	var fetchToOpt *string = getopt.StringLong("fetch-to", 0, "", "Fetch words to the given path.\n" +
 	                                                              "Already existing words will be overwritten.", "path")
+	var fetchConcurrency *int = getopt.IntLong("fetch-concurrency", 0, 50, "Amount of concurrent fetches to the provider.")
 	getopt.Parse()
 
 	const usageExamples string = `
 Examples:
 
 To retrieve the definitions for a list of French words and store them in the data/ folder:
-  echo -e "baguette\noui\nmerci" | dico -l fr --fetch --fetch-to=data/
+  echo -e "baguette\noui\nmerci" | dico -l fr --fetch --fetch-to=data/ --fetch-concurrency=3
+or
+  cat wordsList.txt | dico -l fr --fetch --fetch-to=data/ --fetch-concurrency=200
 
 To collect the definitions available in data/ and put them in the database
 (database location defaults at ~/.local/share/dico/dico.db):
@@ -85,7 +88,7 @@ Note: search functionality requires a database.`
 		}
 		fmt.Println("Fetching words; this may take a very long time depending on the amount of words to fetch")
 		var amount int
-		amount, err = fetch.FetchWords(ctx, os.Stdin, *languageOpt, *fetchToOpt)
+		amount, err = fetch.FetchWords(ctx, os.Stdin, *languageOpt, *fetchToOpt, *fetchConcurrency)
 		if err != nil {
 			fmt.Fprintln(os.Stderr, "Error: " + err.Error())
 			os.Exit(1)

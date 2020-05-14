@@ -5,7 +5,6 @@ import (
 	"context"
 	"errors"
 	"io"
-	"io/ioutil"
 	"os"
 	"path/filepath"
 	"plugin"
@@ -23,7 +22,7 @@ type Fetcher interface {
 }
 
 
-func FetchWords(ctx context.Context, stream io.Reader, language string, to string) (int, error) {
+func FetchWords(ctx context.Context, stream io.Reader, language string, to string, concurrencyLimit int) (int, error) {
 	var err error
 	var scanner *bufio.Scanner = bufio.NewScanner(stream)
 
@@ -79,9 +78,8 @@ func FetchWords(ctx context.Context, stream io.Reader, language string, to strin
 
 	// Run an army of goroutines to fetch all words
 	var wg sync.WaitGroup
-	var amountGoroutines int = 50
 
-	for i := 1; i <= amountGoroutines; i++ {
+	for i := 1; i <= concurrencyLimit; i++ {
 		wg.Add(1)
 		go func() {
 			defer wg.Done()
@@ -148,17 +146,19 @@ func FetchWords(ctx context.Context, stream io.Reader, language string, to strin
 					errChan<- err
 					return
 				}
+
 				err = file.Chmod(0644)
 				if err != nil {
 					errChan<- err
 					return
 				}
 
-				err = ioutil.WriteFile(filePath, fileYaml, 0755)
+				_, err = file.Write(fileYaml)
 				if err != nil {
 					errChan<- err
 					return
 				}
+				file.Close()
 
 				amount++
 			}
