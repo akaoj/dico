@@ -1,0 +1,7 @@
+language: fr
+word: mantisses
+type: nom féminin
+etymology: latin mantissa, surplus de poids
+definitions:
+  - 'Mantisse d''un décimal a, différence égale à a − E(a), où E(a) désigne la partie entière de a.  (La mantisse d''un logarithme décimal lg x est le nombre strictement positif et inférieur à 1, égal à lg x′, où x = 10n x′ avec 1 ≤ x′ < 10 ; on a alors : lg x = n + lg x′.)'
+synonyms: []

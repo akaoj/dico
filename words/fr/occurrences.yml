@@ -1,0 +1,8 @@
+language: fr
+word: occurrences
+type: nom féminin
+etymology: de l'anglais occurrence
+definitions:
+  - Apparition d'un fait linguistique (phonologique, grammatical ou lexical) dans un corpus ; l'unité linguistique apparaissant dans le corpus.
+  - En logique, place occupée par un symbole dans une formule. [Ainsi, il y a deux occurrences de la lettre p dans la formule « Γ p OU (p & q) ».]
+synonyms: []

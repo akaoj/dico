@@ -1,0 +1,9 @@
+language: fr
+word: axiome
+type: nom masculin
+etymology: latin axioma, proposition évidente, du grec aksiôma, -atos
+definitions:
+  - Dans la logique aristotélicienne, point de départ d'un raisonnement considéré comme non démontrable, évident.
+  - Énoncé initial d'une théorie axiomatisée, qui sert de point de départ aux démonstrations dans cette théorie.
+  - Énoncé indiscuté, admis comme base d'une construction intellectuelle, sociale, morale, etc. ; vérité admise par tous sans discussion.
+synonyms: []

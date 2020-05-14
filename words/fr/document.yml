@@ -1,0 +1,9 @@
+language: fr
+word: document
+type: nom masculin
+etymology: latin documentum, enseignement, de docere, enseigner
+definitions:
+  - 'Pièce écrite servant d''information, de preuve : Recueillir des documents sur la dernière guerre.'
+  - 'Objet quelconque servant de preuve, de témoignage : Ces films sont des documents sur la Résistance.'
+  - (Documentation) Unité d'information correspondant à un contenu singulier.
+synonyms: []

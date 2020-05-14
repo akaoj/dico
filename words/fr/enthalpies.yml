@@ -1,0 +1,7 @@
+language: fr
+word: enthalpies
+type: nom féminin
+etymology: grec en, dans, et thalpos, chaleur
+definitions:
+  - Fonction d'état caractérisant un fluide homogène, ayant pour expression H = U+ p V, où U est l'énergie interne, p la pression et V le volume. (Lors d'une transformation à pression constante, la quantité de chaleur reçue par le système est égale à sa variation d'enthalpie.)
+synonyms: []

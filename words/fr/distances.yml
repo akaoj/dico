@@ -1,0 +1,12 @@
+language: fr
+word: distances
+type: nom féminin
+etymology: latin distantia
+definitions:
+  - 'Intervalle qui sépare deux points dans l''espace ; longueur de l''espace à parcourir pour aller d''un point à un autre : Quelle est la distance de la Terre à la Lune ?'
+  - 'Intervalle, espace qui sépare deux ou plusieurs personnes : La distance grandissait entre le coureur de tête et le peloton.'
+  - 'Espace à parcourir dans une course : Le cheval est meilleur sur cette distance.'
+  - 'Écart, différence entre deux choses, deux personnes, leurs statuts, leurs qualités, etc. : L''argent a mis une grande distance entre eux.'
+  - '(Mathématiques) Application d définie sur l''ensemble E × E (E étant un ensemble donné) à valeurs dans ℝ+, qui vérifie les propriétés suivantes : 1° ∀(x, y) ∈ E2, d(x, y) = 0 ;â x = y ;2° ∀(x, y) ∈ E2, d(x, y) = d(y, x) ;3° ∀(x, y, z) ∈ E3, d(x, z) ≤ d(x, y) + d(y, z). (On dit alors que (E, d) est un espace métrique ; d est parfois appelée aussi métrique.)'
+  - (Militaire) Espace laissé en profondeur entre les rangs ou les éléments d'une colonne.
+synonyms: []

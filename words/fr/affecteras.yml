@@ -1,0 +1,10 @@
+language: fr
+word: affecteras
+type: verbe transitif
+etymology: latin affectare, assigner
+definitions:
+  - 'Destiner quelque chose à un usage particulier : Affecter un local à des représentations théâtrales.'
+  - 'Désigner quelqu''un pour occuper une fonction, un poste : Affecter une recrue au service des transmissions.'
+  - Accompagner une variable d'un signe, en particulier pour en modifier le sens, la valeur.
+  - En informatique, attribuer une valeur à une variable.
+synonyms: []

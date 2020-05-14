@@ -1,0 +1,10 @@
+language: fr
+word: asymétrique
+type: adjectif
+etymology: ""
+definitions:
+  - 'Dépourvu de symétrie : Un bâtiment asymétrique.'
+  - Se dit d'un atome de carbone ayant quatre substituants différents.
+  - Se dit d'un pli géologique dont le plan axial n'est pas vertical et dont les flancs n'ont pas le même développement (flanc long, flanc court).
+  - Se dit d'une relation binaire ℛ sur un ensemble E telle que, x et y étant deux éléments quelconques de E, seule une des deux affirmations (x, y) ∈ ℛ et (y, x) ∈ ℛ est vraie.
+synonyms: []

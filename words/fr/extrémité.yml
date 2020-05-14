@@ -1,0 +1,11 @@
+language: fr
+word: extrémité
+type: nom féminin
+etymology: latin extremitas, -atis
+definitions:
+  - 'Partie ou limite extrême, le bout, la fin de quelque chose, d''une ligne, d''une surface : L''extrémité d''un bâton.'
+  - 'Littéraire. Degré extrême : L''extrémité de la misère.'
+  - 'Acte extrême, considéré comme un recours extrême et, en particulier, acte de violence, de désespoir : On craint qu''il ne se livre à quelque extrémité.'
+  - Chacun des deux sommets d'un arc d'un graphe orienté.
+  - Dans un espace affine euclidien, image de a ou de b par un arc paramétré f continue sur [a, b].
+synonyms: []

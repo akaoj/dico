@@ -1,0 +1,7 @@
+language: fr
+word: équipollences
+type: nom féminin
+etymology: bas latin aequipollentia, équivalence
+definitions:
+  - Relation d'équivalence ∼ définie sur l'ensemble des bipoints d'un espace affine par (M,N) ∼ (M′, N′) si et seulement si MN′ et M′N ont même milieu. [Si (M,N) ∼ (M′,N′), alors (M, M′) ∼ (N, N′). Chaque classe d'équivalence est un vecteur ; la classe de (M, N) est notée .]
+synonyms: []

@@ -1,0 +1,9 @@
+language: fr
+word: récurrent
+type: adjectif
+etymology: latin recurrens, -entis, de recurrere, revenir en arrière
+definitions:
+  - 'Qui revient, réapparaît, se reproduit : Une haine récurrente.'
+  - Se dit de plusieurs artères et nerfs en raison de leur trajet, en particulier du nerf récurrent d'Arnold, rameau collatéral méningé du nerf ophtalmique, et du nerf récurrent, ou nerf laryngé inférieur, branche du pneumogastrique.
+  - Se dit d'une suite dont le terme de rang n est défini à l'aide d'un ou plusieurs des termes qui le précèdent (ceux de rangs n − 1 ou n − 2 le plus souvent, voire les deux), u0 ou u1 (ou les deux) étant donnés.
+synonyms: []

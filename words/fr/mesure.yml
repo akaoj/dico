@@ -1,0 +1,17 @@
+language: fr
+word: mesure
+type: nom féminin
+etymology: latin mensura
+definitions:
+  - 'Action d''évaluer une grandeur d''après son rapport avec une grandeur de même espèce, prise comme unité et comme référence : La mesure du temps, des longueurs.'
+  - 'Quantité servant d''unité de base pour cette évaluation : Le mètre carré est une mesure de surface.'
+  - 'Récipient de contenance déterminée servant à mesurer des volumes : Une série de mesures anciennes en étain.'
+  - 'Moyen de comparaison et d''appréciation : L''homme est la mesure de toute chose. Trouver un adversaire à sa mesure. Le résultat est sans commune mesure avec l''effort dispensé.'
+  - 'Modération dans l''action, le comportement, le jugement, etc. : Garder une juste mesure en toute chose.'
+  - 'Moyen mis en œuvre en vue d''un résultat déterminé : Prendre des mesures pour enrayer une épidémie.'
+  - (Équitation) Cadence, régularité des allures d'un cheval.
+  - '(Mathématiques) Application souvent notée μ qui, à chaque partie d''un ensemble donné E (espace affine par exemple), associe un nombre réel, souvent positif, telle que pour tout couple (A, B) de parties de E on ait : μ(A) + μ(B) = μ(A ∪ B) + μ(A ∩ B), et telle que μ(î) = 0.'
+  - (Métrologie) Rapport numérique d'une grandeur à une autre grandeur de même nature prise comme unité ; repérage de la position d'une grandeur dite repérable dans une échelle admise par convention, même si l'on ne sait pas définir le rapport à une unité.
+  - (Musique) 1.  Division du rythme en valeurs proportionnelles (unités de temps).2.  À partir du xviiie s., groupement régulier de 2 ou 3 unités pour former des temps binaires ou ternaires de valeur égale. (La mesure comprend 1, 2, 3, 4… temps égaux.)3.  Espace compris entre deux barres de mesure, quel qu'en soit le contenu.
+  - (Versification) Quantité de syllabes exigée par le rythme du vers.
+synonyms: []

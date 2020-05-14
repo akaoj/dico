@@ -1,0 +1,9 @@
+language: fr
+word: commute
+type: verbe intransitif
+etymology: latin commutare, changer
+definitions:
+  - Pour deux opérateurs A et B, satisfaire à la relation AB = BA.
+  - Pour deux éléments d'un ensemble sur lequel a été définie une loi de composition interne (notée ⊤), vérifier la relation a⊤b = b⊤a.
+  - En parlant d'éléments linguistiques, pouvoir être remplacés l'un par l'autre dans un contexte défini.
+synonyms: []

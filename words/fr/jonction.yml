@@ -1,0 +1,11 @@
+language: fr
+word: jonction
+type: nom féminin
+etymology: latin junctio, -onis, de jungere, joindre
+definitions:
+  - 'Action de joindre, d''unir deux choses séparées : Opérer la jonction par un pont.'
+  - 'Action de se joindre, de se réunir, en parlant de groupes, de troupes en mouvement : Les deux manifestations firent leur jonction sur la place.'
+  - (Électricité) Connexion de deux extrémités de conducteurs électriques.
+  - (Électronique) Zone de transition d'un monocristal dont une région est du type P et l'autre du type N. (En créant dans le même fragment deux jonctions de sens opposé [par exemple P-N-P ou N-P-N], on obtient un transistor.)
+  - (Informatique et télécommunications) Frontière entre deux appareils où sont spécifiées les caractéristiques des connexions, des signaux échangés et des circuits d'interconnexion.
+synonyms: []

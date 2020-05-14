@@ -1,0 +1,11 @@
+language: fr
+word: pair
+type: adjectif
+etymology: latin par, paris, égal
+definitions:
+  - Se dit d'un nombre entier naturel divisible par 2.
+  - 'Qui est affecté d''un numéro, d''un nombre pair : Jours pairs.'
+  - Se dit des organes qui sont, dans l'organisme, au nombre de deux, tels les poumons, les reins, les seins, etc.
+  - Se dit d'une permutation dont la signature est égale à 1.
+  - Se dit d'une fonction définie d'une partie A de ℝ dans ℝ telle que, pour tout x de A, − x appartient à A et f (− x) = f (x).
+synonyms: []

@@ -1,0 +1,12 @@
+language: fr
+word: interface
+type: nom féminin
+etymology: anglais interface
+definitions:
+  - Plan ou surface de discontinuité formant une frontière commune à deux domaines aux propriétés différentes et unis par des rapports d'échanges et d'interaction réciproques.
+  - Limite commune à deux systèmes, permettant des échanges entre ceux-ci.
+  - Surface séparant deux phases chimiques non miscibles.
+  - Dispositif permettant la liaison de deux circuits électroniques ne devant pas avoir de répercussion l'un sur l'autre.
+  - En informatique, jonction entre deux matériels ou logiciels leur permettant d'échanger des informations par l'adoption de règles communes ; module matériel ou logiciel permettant la communication d'un système avec l'extérieur.
+  - 'Personne qui assure l''échange d''informations entre deux domaines, deux services, deux personnes : Faire l''interface entre le producteur et le consommateur.'
+synonyms: []

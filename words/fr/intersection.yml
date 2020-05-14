@@ -1,0 +1,11 @@
+language: fr
+word: intersection
+type: nom féminin
+etymology: latin intersectio, -onis
+definitions:
+  - 'Endroit où deux lignes, deux routes, deux chemins se croisent : À l''intersection de la nationale et de la départementale.'
+  - 'En géométrie, lieu où des lignes, des surfaces, des volumes se rencontrent et se coupent : Point d''intersection.'
+  - En logique, jonction entre deux relations s'exprimant par « et ».
+  - Partie commune à des ensembles M et N, qui se note M ∩ N (et se lit « M inter N »), et qui comprend les éléments qui appartiennent à la fois à M et à N.
+  - En topographie, méthode de détermination des coordonnées d'un point inconnu, éventuellement inaccessible, en le visant depuis des points connus.
+synonyms: []

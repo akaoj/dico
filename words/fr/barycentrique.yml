@@ -1,0 +1,7 @@
+language: fr
+word: barycentrique
+type: adjectif
+etymology: ""
+definitions:
+  - Coordonnées barycentriques d'un point M, (n + 1)-uple (a0, a1, …, an) de scalaires tels que M est le barycentre des n + 1 points A0, A1, …, An affectés de ces coefficients,  étant un repère affine de l'espace affine de référence.
+synonyms: []

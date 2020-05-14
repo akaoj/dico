@@ -1,0 +1,9 @@
+language: fr
+word: tâche
+type: nom féminin
+etymology: latin médiéval taxa, du latin classique taxare, estimer
+definitions:
+  - 'Travail, ouvrage à faire dans un temps déterminé et à certaines conditions : Achever la tâche de la journée.'
+  - 'Conduite dont on se fait une obligation : La tâche du scientifique dans le monde moderne.'
+  - Élément de la décomposition d'un problème, susceptible d'être représenté par un programme informatique.
+synonyms: []

@@ -1,0 +1,11 @@
+language: fr
+word: logique
+type: adjectif
+etymology: bas latin logicus, du grec logikos
+definitions:
+  - Relatif à la science de la logique.
+  - 'Conforme au bon sens, cohérent, rationnel : Raisonnement logique.'
+  - 'Conforme au mode de raisonnement de quelqu''un, aux principes qui guident son action, son comportement : Soyez logique avec vous-même.'
+  - 'Qui résulte de la nature même des choses : C''est la conséquence logique des événements.'
+  - En informatique, se dit d'une variable, d'un élément, d'un circuit qui ne peut prendre qu'un état parmi deux appelés, par exemple, « vrai » ou « faux », ou bien « 0 » ou « 1 ».
+synonyms: []

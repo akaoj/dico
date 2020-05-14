@@ -1,0 +1,7 @@
+language: fr
+word: converse
+type: adjectif et nom féminin
+etymology: latin conversa, de convertere, convertir
+definitions:
+  - Dans la logique aristotélicienne, se dit d'une proposition dont la place du sujet et la place de l'attribut ont été interverties par rapport à une autre proposition. (La converse de la formule A → B est la formule B → A.)
+synonyms: []

@@ -1,0 +1,9 @@
+language: fr
+word: électrodes
+type: nom féminin
+etymology: anglais electrode
+definitions:
+  - Pièce conductrice destinée à être mise en contact avec un milieu de conductivité différente. (On appelle respectivement anode et cathode l'électrode par laquelle le courant entre dans le milieu et sort du milieu.)
+  - Élément conducteur du courant électrique utilisé en médecine ou en physiologie pour stimuler le système nerveux, la peau, les muscles ou les viscères ou bien pour recueillir les potentiels bioélectriques.
+  - 'Élément conducteur d''un dispositif électronique qui y remplit une ou plusieurs fonctions : émission, captation ou commande par un champ électrique des électrons ou des ions.'
+synonyms: []

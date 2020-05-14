@@ -1,0 +1,12 @@
+language: fr
+word: réelle
+type: adjectif
+etymology: latin médiéval realis, du latin classique res, chose
+definitions:
+  - 'Qui existe ou a existé effectivement : Le héros de ce roman est un personnage réel.'
+  - 'Qui est conforme à ce qu''il doit être ou prétend être : Je crois que sa peine était réelle.'
+  - 'Qui n''est pas douteux, peut être visiblement constaté : Constater une réelle amélioration de la situation.'
+  - (Droit) Qui porte sur une chose, par opposition à personnel (droit réel, action réelle, par exemple).
+  - (Informatique) Relatif à une variable pouvant prendre dans un programme des valeurs numériques non entières.
+  - (Mathématiques) Se dit en géométrie analytique d'un ensemble dont tous les points ont pour coordonnées des nombres réels.
+synonyms: []

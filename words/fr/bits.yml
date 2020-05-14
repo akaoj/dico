@@ -1,0 +1,10 @@
+language: fr
+word: bits
+type: nom masculin
+etymology: anglais bit, de binary digit.
+definitions:
+  - Unité binaire de quantité d'information.
+  - Information représentée par un symbole à deux valeurs généralement notées 0 et 1, associées aux deux états d'un dispositif.
+  - Unité de mesure de la capacité d'une mémoire d'ordinateur. (Une mémoire de n K bits contient n fois 1 024 unités élémentaires de mémorisation.)
+  - Unité de mesure de la longueur des mots utilisés par un ordinateur.
+synonyms: []

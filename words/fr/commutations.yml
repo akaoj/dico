@@ -1,0 +1,11 @@
+language: fr
+word: commutations
+type: nom féminin
+etymology: latin commutatio, -onis, changement
+definitions:
+  - (Électricité) 1.  Transfert de connexions d'un ensemble de conducteurs à un autre.2.  Ensemble des phénomènes qui, dans les machines électriques à collecteur, accompagnent le renversement du sens du courant dans la ou les sections court-circuitées par les balais.
+  - (Électronique) Passage brusque, pour un élément actif, de l'état bloqué à l'état saturé, ou inversement.
+  - (Informatique) Technique d'acheminement des données entre deux ordinateurs connectés par un réseau de transmission.
+  - (Linguistique) Opération qui consiste à substituer les uns aux autres des éléments (phoniques, morphologiques, sémantiques) pour dégager des distinctions linguistiques pertinentes.
+  - (Télécommunications) Établissement à la demande de connexions individuelles ou de moyens de transfert entre des voies de transmission ou des circuits de télécommunication. (On distingue la commutation spatiale, dans laquelle une communication en cours utilise seule une voie de transmission, et la commutation temporelle qui permet d'écouler plusieurs communications simultanées sur une même voie.)
+synonyms: []

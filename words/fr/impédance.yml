@@ -1,0 +1,7 @@
+language: fr
+word: impédance
+type: nom féminin
+etymology: anglais impedance, du latin impedire, empêcher
+definitions:
+  - Grandeur scalaire égale, en régime sinusoïdal établi, au quotient de l'amplitude de la tension aux bornes d'un bipôle passif par l'amplitude du courant qui le parcourt. (L'impédance s'exprime en ohms, de symbole Ω.)
+synonyms: []

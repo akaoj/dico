@@ -1,0 +1,10 @@
+language: fr
+word: homologie
+type: nom féminin
+etymology: grec homologia
+definitions:
+  - Qualité des organes homologues.
+  - Caractère des composés chimiques homologues.
+  - (Biologie) Présence, chez deux ou plusieurs espèces distinctes, d’un caractère anatomique hérité d’un ancêtre commun, mais dont la forme et la fonction peuvent être différentes (bras des êtres humains, ailes des chauves-souris et nageoires pectorales des cétacés, par exemple).
+  - 'Transformation plane h définie à l''aide d''un point S (appelé centre, pôle ou sommet) et d''un axe Δ par : h (M) = M′ si et seulement si M′ ∈ (SM) et si, pour {I} = (SM) ∩ Δ, le birapport (S, I, M, M′) est une constante ρ appelée rapport de l''homologie h.'
+synonyms: []

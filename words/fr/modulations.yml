@@ -1,0 +1,13 @@
+language: fr
+word: modulations
+type: nom féminin
+etymology: latin modulatio, -onis
+definitions:
+  - Chacun des changements de ton, d'accent, d'intensité dans l'émission d'un son, en particulier inflexion de la voix.
+  - 'Variation recherchée dans le ton, la couleur, les volumes, les manières d''exprimer quelque chose dans une œuvre : Modulation des ombres et des lumières dans un tableau.'
+  - 'Variation, adaptation, modification de quelque chose selon certains critères ou certaines circonstances : L''application d''une mesure avec des modulations selon les cas.'
+  - (Bâtiment) Principe de construction suivant lequel les dimensions des différents éléments entrant dans la composition d'un bâtiment possèdent une commune mesure, ou module, dont elles sont les multiples. (L'application de ce principe permet la préfabrication.)
+  - (Musique) Passage d'une tonalité musicale dans une autre.
+  - (Physique) Variation dans le temps d'une caractéristique d'un phénomène (amplitude, fréquence, etc.) en fonction des valeurs d'une caractéristique d'un autre phénomène.
+  - (Télécommunications) Processus par lequel une grandeur caractéristique (amplitude, fréquence, phase) d'une oscillation, dite porteuse, est astreinte à suivre les variations d'un signal, dit signal modulant. (La modulation est en général destinée à changer la forme physique d'un signal et, en particulier, à le placer dans la bande de fréquences voulue pour sa transmission ou son traitement. En radiodiffusion, on utilise la modulation d'amplitude et la modulation de fréquence [M.F.]. Cette dernière, insensible aux parasites atmosphériques et industriels, permet une meilleure transmission des données et une meilleure restitution musicale.)
+synonyms: []

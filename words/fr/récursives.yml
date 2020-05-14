@@ -1,0 +1,8 @@
+language: fr
+word: récursives
+type: adjectif
+etymology: anglais recursive, du latin recursum, de recurrere, revenir en arrière
+definitions:
+  - Se dit d'une règle ou d'un élément doués de récursivité.
+  - Se dit d'un programme informatique organisé de manière telle qu'il puisse se rappeler lui-même, c'est-à-dire demander sa propre exécution au cours de son déroulement.
+synonyms: []

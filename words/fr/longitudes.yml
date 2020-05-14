@@ -1,0 +1,9 @@
+language: fr
+word: longitudes
+type: nom féminin
+etymology: latin longitudo, -inis, longueur
+definitions:
+  - Dans un système de coordonnées sphériques, distance angulaire de la projection d'un point sur le plan fondamental, comptée à partir d'une direction origine, de 0 à 360° ou de 0 à ± 180°.
+  - Angle dièdre formé, en un point donné de la surface terrestre, par le méridien du lieu avec le méridien de Greenwich, et compté de 0 à ± 180° ou de 0 à plusmn ; 12 h à partir de cette origine, positivement vers l'est, négativement vers l'ouest.
+  - Deuxième coordonnée sphérique (θ).
+synonyms: []

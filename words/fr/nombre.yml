@@ -1,0 +1,17 @@
+language: fr
+word: nombre
+type: nom masculin
+etymology: latin numerus
+definitions:
+  - 'Notion qui permet de compter, de dénombrer les choses ou les êtres, de classer les objets, de mesurer les grandeurs : Apprendre la suite des nombres.'
+  - 'Symbole caractérisant une unité ou une collection d''unités : Un nombre de trois chiffres.'
+  - 'Quantité, pluralité d''éléments de même nature : L''ennemi était supérieur en nombre.'
+  - 'Masse, quantité plus importante, avantage numérique : Subir la loi du nombre.'
+  - 'Quantité relative de choses ou de personnes : Ces mesures vont grossir le nombre des mécontents.'
+  - (Comptabilité) Dans les calculs des comptes courants et d'intérêts, produit d'un capital par la quantité de jours durant lesquels ce capital doit porter intérêt.
+  - (Linguistique) Catégorie grammaticale qui permet l'expression de l'opposition entre le singulier et le pluriel et éventuellement le duel.
+  - (Littérature) Rythme de la phrase de prose (combinaisons des voyelles et des consonnes, équilibre des différents membres de la phrase).
+  - "(Mathématiques) Élément d'un des ensembles ℕ, ℤ, \U0001D53B, ℚ, ℝ ou ℂ (ensembles inclus les uns dans les autres par ℕ ⊂ ℤ ⊂ \U0001D53B ⊂ ℚ ⊂ ℝ ⊂ ℂ)."
+  - (Pétrole) Synonyme de indice.
+  - (Physique) Nombre caractéristique, rapport sans dimensions de grandeurs physiques permettant d'exprimer les conditions de similitude entre un phénomène réel et le modèle utilisé pour l'étudier (nombres de Reynolds, de Mach, etc.).
+synonyms: []

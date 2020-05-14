@@ -1,0 +1,14 @@
+language: fr
+word: dense
+type: adjectif
+etymology: latin densus
+definitions:
+  - 'Compact, épais, fait d''éléments serrés : Brouillard dense.'
+  - 'Qui comporte des éléments nombreux et serrés : Circulation dense sur l''autoroute.'
+  - 'Qui exprime en peu de mots de nombreuses idées ; concis : Style dense.'
+  - 'Qui est riche d''événements : Une vie dense et variée.'
+  - 'Littéraire. Caractérisé par une certaine plénitude, force, intensité : Joie dense.'
+  - (Botanique) Se dit des formations végétales, en particulier des forêts où toutes les frondaisons se touchent par les bords, telle la forêt équatoriale.
+  - (Mathématiques) 1.  Se dit d'un ensemble M ordonné, contenant au moins deux éléments et tel que pour tout couple d'éléments x et y de M il existe un autre élément z de M tel que l'on ait x<z<y.2.  Se dit d'un ensemble A, partie d'un ensemble E, tel que la fermeture  de A est égale à E. (Ainsi ℚ est dense dans ℝ.)
+  - (Physique) Se dit d'une substance dont la masse volumique est grande par rapport à celle d'une substance de référence (l'air pour les gaz, l'eau pour les liquides et les solides).
+synonyms: []

@@ -1,0 +1,7 @@
+language: fr
+word: incrément
+type: nom masculin
+etymology: anglais increment, du latin incrementum, augmentation
+definitions:
+  - En informatique, quantité constante ajoutée à la valeur d'une variable à chaque exécution d'une instruction, généralement répétitive, d'un programme.
+synonyms: []

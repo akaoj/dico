@@ -1,0 +1,10 @@
+language: fr
+word: statistique
+type: nom féminin
+etymology: allemand Statistik
+definitions:
+  - Ensemble de données d'observation relatives à un groupe d'individus ou d'unités (souvent pluriel).
+  - Ensemble des méthodes qui ont pour objet la collecte, le traitement et l'interprétation de ces données.
+  - Ensemble des données numériques concernant un phénomène quelconque et dont on tire certaines conclusions.
+  - Variable aléatoire, fonction des observations, construite à partir d'un échantillon. (Ainsi, la moyenne d'un échantillon est une statistique.)
+synonyms: []

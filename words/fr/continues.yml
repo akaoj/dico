@@ -1,0 +1,11 @@
+language: fr
+word: continues
+type: adjectif
+etymology: latin continuus
+definitions:
+  - 'Qui ne subit pas d''interruption dans le temps ; soutenu, incessant : Fournir un effort continu.'
+  - 'Qui ne présente aucune rupture, aucune discontinuité dans l''espace ; ininterrompu : Ligne continue.'
+  - (Électricité) Se dit d'une grandeur (courant, tension, etc.) indépendante du temps ou dont la composante indépendante du temps est primordiale.
+  - (Phonétique) Se dit des phonèmes dont l'enveloppe spectrale est caractérisée par l'absence d'une transition abrupte.
+  - (Physique) Se dit d'une grandeur pouvant prendre toutes les valeurs réelles d'un intervalle déterminé, par opposition à une grandeur discrète.
+synonyms: []

@@ -1,0 +1,11 @@
+language: fr
+word: définitions
+type: nom féminin
+etymology: latin definitio, -onis
+definitions:
+  - 'Fait de déterminer les caractéristiques d''un concept, d''un mot, d''un objet, etc., ensemble des propriétés essentielles de quelque chose : La définition de ce mot n''est pas facile. La définition de produits nouveaux, du public à atteindre.'
+  - (Logique) Énoncé ou déclaration aux termes desquels un symbole ou une combinaison de symboles nouvellement introduits (definiendum) signifie ou dénote la même chose qu'un symbole dont le sens est déjà connu (definiens).
+  - (Photographie) Impression subjective que donne un phototype et qui correspond à sa limite de résolution.
+  - (Informatique) Nombre total de pixels constituant une image numérique, souvent donné sous la forme du produit du nombre de pixels qui compose la largeur de l'image par celui de sa hauteur (par ex., image de 400 × 300 pixels).
+  - (Théologie) Acte du magistère de l'Église proposant aux fidèles, comme étant divinement révélée, une vérité de foi ; la proposition elle-même.
+synonyms: []

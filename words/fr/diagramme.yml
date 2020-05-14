@@ -1,0 +1,9 @@
+language: fr
+word: diagramme
+type: nom masculin
+etymology: latin diagramma, du grec diagramma, toute chose écrite
+definitions:
+  - Graphique représentant l'évolution et les variations d'un phénomène, d'un processus ou la structure d'un ensemble, le fonctionnement d'un mécanisme, etc. (Les principaux diagrammes utilisés en statistique sont les diagrammes en bâtons, en colonnes et en secteurs.)
+  - (Linguistique) Représentation graphique de la structure en constituants d'une phrase.
+  - (Technique) Représentation graphique de l'évolution du fluide moteur dans le cylindre d'un moteur. (La surface limitée par un diagramme pression/volume est proportionnelle au travail du fluide dans le cylindre.)
+synonyms: []

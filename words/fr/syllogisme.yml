@@ -1,0 +1,8 @@
+language: fr
+word: syllogisme
+type: nom masculin
+etymology: latin syllogismus, du grec sullogismos
+definitions:
+  - 'Raisonnement qui a la forme d''une implication dont l''antécédent est la conjonction de deux propositions appelées prémisses, par exemple : « Si tout B est A et si tout C est B, alors tout C est A. »'
+  - Raisonnement très rigoureux.
+synonyms: []

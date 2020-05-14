@@ -1,0 +1,11 @@
+language: fr
+word: grammaire
+type: nom féminin
+etymology: latin grammatica, du grec grammatikê, de grammatikos, qui concerne l'art de lire ou d'écrire
+definitions:
+  - 'Ensemble des règles qui président à la correction, à la norme de la langue écrite ou parlée : Exercice de grammaire.'
+  - 'Livre, manuel enseignant ces règles : Acheter une grammaire.'
+  - Ensemble des structures linguistiques propres à telle ou telle langue ; description de ces structures et du fonctionnement de cette langue.
+  - 'Ensemble des règles d''un art : La grammaire du cinéma.'
+  - En informatique, description d'un ensemble de règles permettant de générer, à partir d'un ensemble de symboles, les suites ordonnées de ces symboles (chaînes) constituant les phrases autorisées dans le langage correspondant.
+synonyms: []

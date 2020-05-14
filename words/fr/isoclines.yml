@@ -1,0 +1,7 @@
+language: fr
+word: isoclines
+type: adjectif
+etymology: grec isoklinês, de klinein, pencher
+definitions:
+  - 'Courbe isocline ou isocline (nom féminin), courbe, d''équation F(x,y,m) = 0, obtenue, à partir de l''équation différentielle (E) : F(x,y,y′) = 0, comme ensemble des points M du plan où l''un des éléments de contact associés à M par la donnée de (E) a pour coefficient directeur le nombre donné m (on dit « courbe isocline relative à (E), pour la direction de coefficient directeur m ») ; en géophysique, courbe joignant les points de la Terre où l''inclinaison magnétique est la même.'
+synonyms: []

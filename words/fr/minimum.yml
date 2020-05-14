@@ -1,0 +1,11 @@
+language: fr
+word: minimum
+type: nom masculin
+etymology: latin minimum, la plus petite quantité
+definitions:
+  - 'Le plus petit degré auquel puisse être réduit quelque chose ; la plus petite quantité nécessaire à quelque chose : Prendre le minimum de risques.'
+  - 'Le plus bas degré d''une grandeur ou le plus bas niveau enregistré à un moment donné : Des minimums de température.'
+  - 'Peine la plus faible prévue pour une catégorie de délit ou de crime : Être condamné au minimum. (Le nouveau Code pénal ne fixe plus de minimum, laissant au juge la liberté de déterminer le quantum de la peine sans dépasser le maximum légal.)'
+  - 'Somme la plus faible : Toucher un minimum.'
+  - '(Mathématiques) 1.  Plus petit élément d''un ensemble ordonné.2.  Réel f(x0), s''il existe, tel que, f(x) ≥ f(x0), pour une fonction f : E → ℝ (E ensemble quelconque) et x0∈E. (On précise parfois minimum absolu.)'
+synonyms: []

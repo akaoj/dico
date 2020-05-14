@@ -1,0 +1,8 @@
+language: fr
+word: abscisse
+type: nom féminin
+etymology: latin abscissa linea, ligne découpée
+definitions:
+  - Coordonnée x caractérisant un point M d'un axe muni d'un repère  et telle que .
+  - Première coordonnée d'un point M d'un espace affine muni d'un repère cartésien.
+synonyms: []

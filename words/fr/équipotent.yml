@@ -1,0 +1,7 @@
+language: fr
+word: équipotent
+type: adjectif
+etymology: du latin potens, -entis, puissant
+definitions:
+  - Se dit de deux ensembles entre lesquels on peut construire une bijection. (Si deux ensembles sont équipotents, on dit qu'ils ont même puissance ou encore même cardinal.)
+synonyms: []

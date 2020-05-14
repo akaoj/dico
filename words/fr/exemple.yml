@@ -1,0 +1,11 @@
+language: fr
+word: exemple
+type: nom masculin
+etymology: latin exemplum
+definitions:
+  - 'Personne, acte considérés comme un modèle servant de référence à une conduite : Il n''a pas suivi le mauvais exemple de ses prédécesseurs.'
+  - 'Ce qui constitue une leçon, comporte un effet dissuasif : Que cet accident vous serve d''exemple.'
+  - 'Fait, cas antérieur semblable ou comparable à ce dont il s''agit : Un fait sans exemple dans les annales judiciaires.'
+  - 'Fait, chose, comportement de quelqu''un qui illustre une assertion, qui est caractéristique de quelque chose : Un bel exemple d''architecture gothique.'
+  - Citation littéraire ou énoncé forgé servant à montrer le fonctionnement d'une règle de grammaire ou, dans un article de dictionnaire, à illustrer et à justifier la définition du mot traité.
+synonyms: []

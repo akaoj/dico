@@ -1,0 +1,8 @@
+language: fr
+word: ampère
+type: nom masculin
+etymology: de Ampère, nom propre
+definitions:
+  - Unité de mesure SI d'intensité de courant électrique (symbole A) équivalant à l'intensité d'un courant constant qui, maintenu dans deux conducteurs parallèles, rectilignes, de longueur infinie, de section circulaire négligeable et placés à une distance de 1 mètre l'un de l'autre dans le vide, produit entre ces conducteurs une force de 2.10−7N/m. (L'ampère est l'une des sept unités de base du Système international d'unités [SI].)
+  - Unité SI de force magnétomotrice et de différence de potentiel magnétique (symbole A), égale à la force magnétomotrice produite le long d'une courbe fermée quelconque qui entoure une seule fois un conducteur parcouru par un courant électrique de 1 ampère.
+synonyms: []

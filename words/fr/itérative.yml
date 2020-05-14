@@ -1,0 +1,10 @@
+language: fr
+word: itérative
+type: adjectif
+etymology: bas latin iterativus
+definitions:
+  - Qui est fait ou répété plusieurs fois.
+  - En informatique, se dit d'un processus de calcul ou d'une structure de programme qui met en œuvre des séquences d'instructions répétées plusieurs fois.
+  - Synonyme de fréquentatif.
+  - Qui procède par itération.
+synonyms: []

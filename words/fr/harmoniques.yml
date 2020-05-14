@@ -1,0 +1,9 @@
+language: fr
+word: harmoniques
+type: nom masculin
+etymology: ""
+definitions:
+  - Son susceptible d'être émis par une source sonore et dont la fréquence est un multiple entier de celle correspondant au mode fondamental de vibration. (On dit aussi son harmonique.)
+  - En musique, son résultant de la résonance naturelle d'un corps sonore (corde, membrane, lame vibrante, etc.) ; sur les instruments à cordes, son obtenu à partir d'une note fondamentale autre que celle donnée par la corde à vide.
+  - Oscillation sinusoïdale, composante spectrale ou terme d'une série de Fourier dont la fréquence est un multiple entier d'une fréquence dite « fondamentale ».
+synonyms: []

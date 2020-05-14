@@ -1,0 +1,11 @@
+language: fr
+word: positif
+type: adjectif
+etymology: bas latin positivus, du latin classique positus, établi
+definitions:
+  - 'Qui repose sur quelque chose, d''assuré, dont la réalité ne peut être mise en doute, par opposition à négatif : Un fait positif.'
+  - 'Qui tient compte des réalités, qui a le sens pratique : Tenez compte de la situation ; il faut être positif.'
+  - 'Qui a un effet, un résultat favorable ou qui constitue une étape dans une progression : Votre intervention a été positive.'
+  - 'Qui montre la présence de l''élément ou de l''effet recherché : Cuti-réaction positive.'
+  - (Mathématiques) 1.  Se dit d'un réel supérieur ou égal à zéro.2.  Se dit d'une forme bilinéaire symétrique réelle ou d'une forme hermitienne telle que f(x, x) ≥0.3.  Se dit d'une base de même orientation que la base choisie pour orienter un espace vectoriel.
+synonyms: []

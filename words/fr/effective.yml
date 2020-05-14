@@ -1,0 +1,9 @@
+language: fr
+word: effective
+type: adjectif
+etymology: latin médiéval effectivus, du latin classique effectus, effet
+definitions:
+  - 'Dont la réalité est incontestable, qui produit un effet réel, tangible : Participation effective.'
+  - 'Qui est une réalité : L''armistice sera effectif à onze heures.'
+  - Se dit d'une méthode qui, appliquée à la résolution d'un problème, en donne la solution au bout d'un nombre fini d'étapes. (Une opération est dite effective s'il existe un algorithme permettant de la calculer.)
+synonyms: []

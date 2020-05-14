@@ -1,0 +1,10 @@
+language: fr
+word: binaire
+type: adjectif
+etymology: bas latin binarius
+definitions:
+  - 'Qui met en jeu deux éléments : Division binaire.'
+  - (Chimie) Se dit d'une combinaison ou d'un mélange de deux éléments.
+  - (Informatique) Se dit d'un processus dont la représentation symbolique ne comporte que deux symboles.
+  - (Musique) Se dit d'une mesure dont chaque temps est divisible par deux (2/4, 3/4, 4/4).
+synonyms: []

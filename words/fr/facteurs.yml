@@ -1,0 +1,13 @@
+language: fr
+word: facteurs
+type: nom masculin
+etymology: latin factor, -oris, auteur
+definitions:
+  - 'Agent, élément qui concourt à un résultat ; cause : Un facteur de succès.'
+  - 'S''emploie suivi d''un nom apposé pour indiquer l''élément déterminant qui intervient dans le résultat, dans l''événement : Le facteur chance n''a pas joué cette fois-ci.'
+  - (Algèbre) Nom donné aux nombres, aux éléments d'un ensemble muni d'une opération notée multiplicativement, ou aux polynômes qui interviennent dans un produit.
+  - (Biologie) Tout élément dont dépendent la vie, la croissance ou la localisation d'une population animale ou végétale.
+  - (Médecine) Substance, généralement une molécule, participant à une réaction biologique. (Ce terme est suivi d'un mot le désignant de manière précise.)
+  - (Métrologie) Nom générique de grandeurs sans dimension servant à caractériser les propriétés d'un corps, d'un dispositif, etc.
+  - (Statistique) 1.  En analyse factorielle classique, chacune des variables hypothétiques servant à représenter un ensemble de variables observables.2.  Dans la théorie des plans d'expériences et en analyse de variance, toute variable observable pouvant être considérée comme une source de variations possible.
+synonyms: []

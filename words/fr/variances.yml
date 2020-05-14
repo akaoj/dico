@@ -1,0 +1,7 @@
+language: fr
+word: variances
+type: nom féminin
+etymology: de varier
+definitions:
+  - Moyenne arithmétique des carrés des écarts à la moyenne. (C'est le moment centré d'ordre 2.)
+synonyms: []

@@ -1,0 +1,10 @@
+language: fr
+word: associative
+type: adjectif
+etymology: ""
+definitions:
+  - Relatif à une association, aux associations régies par la loi de 1901, au mouvement associatif.
+  - (Informatique) Se dit d'un procédé de calcul concernant des données identifiées par une partie de leur contenu ou d'un calculateur utilisant ce procédé.
+  - (Mathématiques) Se dit d'une loi de composition interne ⊤ définie sur un ensemble E lorsque, pour tout triplet (a,b,c) d'éléments de E, on a (a⊤b)⊤c=a⊤(b⊤c). [Les parenthèses peuvent être supprimées et on écrit a⊤b⊤c.]
+  - (Psychologie) Qui concerne les phénomènes ou les processus d'association.
+synonyms: []

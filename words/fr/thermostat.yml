@@ -1,0 +1,8 @@
+language: fr
+word: thermostat
+type: nom masculin
+etymology: ""
+definitions:
+  - Dispositif régulateur permettant de maintenir, dans une enceinte fermée, la température entre deux valeurs prescrites. (Un thermostat comprend un organe détecteur des écarts de température [bilame, thermomètre] et un actionneur agissant sur le débit de chaleur.)
+  - En thermodynamique, système dont la température reste constante quelles que soient les quantités de chaleur qu'il fournit ou reçoit.
+synonyms: []

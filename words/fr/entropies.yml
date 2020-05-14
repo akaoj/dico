@@ -1,0 +1,8 @@
+language: fr
+word: entropies
+type: nom féminin
+etymology: allemand Entropie, du grec entropê, action de se transformer
+definitions:
+  - Nom donné par Clausius à la fonction d'état notée S qui caractérise l'état de « désordre » d'un système.
+  - Dans la théorie de la communication, nombre qui mesure l'incertitude de la nature d'un message donné à partir de celui qui le précède. (L'entropie est nulle lorsqu'il n'existe pas d'incertitude.)
+synonyms: []

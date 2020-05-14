@@ -1,0 +1,8 @@
+language: fr
+word: décréments
+type: nom masculin
+etymology: anglais decrement, du latin decrementum, de decrescere, décroître
+definitions:
+  - Quantité dont une grandeur ou une variable diminue cycliquement, à chaque passage dans une boucle de programme par exemple.
+  - Rapport de deux amplitudes maximales successives d'un système oscillatoire amorti.
+synonyms: []

@@ -1,0 +1,7 @@
+language: fr
+word: complexifie
+type: nom masculin
+etymology: ""
+definitions:
+  - Complexifié d'un espace vectoriel E sur ℝ, espace vectoriel sur ℂ, égal à E × E muni de l'opération interne qui, au couple [(x,y),(x′,y′)], associe le couple (x + x′, y + y′) et de l'opération externe qui, au couple [α + iβ, (x,y)], associe le couple (αx − βy, αy + βx).
+synonyms: []

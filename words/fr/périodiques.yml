@@ -1,0 +1,12 @@
+language: fr
+word: périodiques
+type: adjectif
+etymology: latin periodicus, du grec periodikos
+definitions:
+  - 'Qui revient à des moments déterminés, à intervalles réguliers : Retour périodique des mêmes difficultés.'
+  - 'Qui paraît selon un rythme déterminé (hebdomadaire, mensuel, trimestriel, semestriel, annuel) : Revue périodique.'
+  - Se dit des divers types de protections que les femmes utilisent pendant leurs règles.
+  - (Chimie) Se dit d'une réaction au cours de laquelle les concentrations des réactifs sont des fonctions périodiques du temps et parfois de l'espace. (Ce sont des réactions d'oxydoréduction en milieu acide et certaines réactions biochimiques, comme la glycolyse.)
+  - (Mathématiques) 1.  Se dit d'une fonction f définie sur un ensemble A ⊂ ℝ, telle qu'il existe T ∈ R*, appelé période, vérifiant à la fois ∀ x ∈ A, x + T ∈ A et ∀ x ∈ A, f (x + T) = f(x).2.  Se dit d'un développement décimal illimité qui admet une période.
+  - (Physique) Se dit d'un phénomène qui se reproduit identique à lui-même au bout d'un intervalle de temps constant.
+synonyms: []

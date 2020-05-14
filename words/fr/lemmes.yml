@@ -1,0 +1,7 @@
+language: fr
+word: lemmes
+type: nom masculin
+etymology: latin lemma, majeure d'un syllogisme, du grec Lêmma
+definitions:
+  - Proposition dont la démonstration prépare souvent celle d'un théorème.
+synonyms: []

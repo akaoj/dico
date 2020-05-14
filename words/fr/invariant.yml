@@ -1,0 +1,10 @@
+language: fr
+word: invariant
+type: adjectif
+etymology: anglais invariant
+definitions:
+  - Qui demeure constant, identique à soi-même dans une structure, un système.
+  - Se dit d'un système chimique en équilibre dont la variance est nulle.
+  - Se dit d'un point (ou d'une figure) qui est égal à sa propre image par une transformation affine.
+  - Se dit d'une mesure ou d'une propriété d'une figure, que l'on retrouve dans l'image de celle-ci par une transformation donnée.
+synonyms: []

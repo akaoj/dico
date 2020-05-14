@@ -1,0 +1,8 @@
+language: fr
+word: morphèmes
+type: nom masculin
+etymology: grec morphê, forme
+definitions:
+  - Unité minimale de signification que l'on peut obtenir lors de la segmentation d'un énoncé sans atteindre le niveau phonologique.
+  - Synonyme rare de monème.
+synonyms: []

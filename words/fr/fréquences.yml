@@ -1,0 +1,11 @@
+language: fr
+word: fréquences
+type: nom féminin
+etymology: latin frequentia
+definitions:
+  - 'Caractère de ce qui se reproduit à intervalles assez rapprochés ; répétition : La grande fréquence de ses visites me fatiguait.'
+  - 'Nombre de fois où une action, un phénomène, un fait se produit dans un temps donné : La fréquence des trains sur une ligne.'
+  - (Linguistique) Nombre d'occurrences d'un élément linguistique dans un corpus.
+  - (Physique) Grandeur liée à un phénomène périodique, qui mesure le nombre de fois où ce phénomène se reproduit dans un intervalle donné. (Si le phénomène évolue uniquement dans le temps, on parle de fréquence temporelle, mesurée en hertz, l'intervalle de temps de référence étant la seconde. S'il s'agit d'un phénomène périodique dans l'espace, on parle de fréquence spatiale, l'intervalle de référence étant l'unité de longueur.)
+  - (Statistique) Synonyme rare de effectif.
+synonyms: []

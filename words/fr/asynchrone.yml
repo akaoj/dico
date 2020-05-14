@@ -1,0 +1,9 @@
+language: fr
+word: asynchrone
+type: adjectif
+etymology: ""
+definitions:
+  - Qui n'est pas synchrone.
+  - Se dit d'une machine (par exemple génératrice ou moteur) à courants alternatifs dont la fréquence des forces électromotrices induites n'est pas dans un rapport constant avec la vitesse.
+  - Se dit d'un calculateur dans lequel le passage d'une opération à une autre s'effectue sous le contrôle d'un signal déclenché lors de la fin d'exécution de la première opération ; se dit d'un mode de transmission de données où chaque caractère à envoyer est précédé et suivi d'un bit.
+synonyms: []

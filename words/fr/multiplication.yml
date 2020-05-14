@@ -1,0 +1,10 @@
+language: fr
+word: multiplication
+type: nom féminin
+etymology: latin multiplicatio, -onis
+definitions:
+  - 'Augmentation en nombre : La multiplication des accidents.'
+  - (Biologie) Augmentation en nombre des entités vivantes semblables issues les unes des autres (animaux, plantes, cellules), quel que soit le mode de reproduction utilisé.
+  - "(Mathématiques) 1.  Opération interne, notée ×, définie sur ℕ (puis par prolongement sur ℤ, \U0001D53B, ℚ, ℝ, ℂ), qui, à deux éléments a et b, associe un naturel (respectivement un élément de ℤ, \U0001D53B, ℝ, ℂ) noté a × b, appelé produit du facteur a et du facteur b.2.  Loi de composition interne associative définie sur un ensemble E, notée × et qui, à deux éléments x et y, associe l'élément x × y, produit du facteur x et du facteur y."
+  - (Mécanique) Rapport de la vitesse de rotation d'un arbre mené à celle de l'arbre menant tournant à vitesse moindre.
+synonyms: []

@@ -1,0 +1,9 @@
+language: fr
+word: chaînerai
+type: verbe transitif
+etymology: de chaîne
+definitions:
+  - Faire le chaînage d'un mur.
+  - Mesurer une distance à la chaîne d'arpenteur.
+  - Relier entre elles des données afin de les traiter successivement, selon un enchaînement automatique.
+synonyms: []

@@ -1,0 +1,9 @@
+language: fr
+word: rectangle
+type: nom masculin
+etymology: latin médiéval rectangulus
+definitions:
+  - Quadrilatère plan qui possède quatre angles droits ; surface limitée par ce quadrilatère. (Un parallélogramme est un rectangle s'il a un angle droit ou si ses diagonales [segments] ont même longueur. Les médiatrices de deux côtés consécutifs d'un rectangle sont ses axes de symétrie.)
+  - Par opposition au carré, ce même quadrilatère quand deux de ses côtés consécutifs sont inégaux (la longueur et la largeur).
+  - 'Objet ayant cette forme : Un rectangle de tissu.'
+synonyms: []

@@ -1,0 +1,9 @@
+language: fr
+word: apothèmes
+type: nom masculin
+etymology: grec apothesis, action de déposer, avec influence du grec upothema, base
+definitions:
+  - Segment ayant pour extrémités le centre d'un polygone régulier et un point de contact de ce dernier avec son cercle inscrit.
+  - Segment ayant pour extrémités le sommet S d'une pyramide régulière et le pied de la perpendiculaire abaissée de S sur un côté du polygone de base.
+  - Longueur de ces deux segments.
+synonyms: []

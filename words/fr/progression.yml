@@ -1,0 +1,10 @@
+language: fr
+word: progression
+type: nom féminin
+etymology: latin progressio, -onis, progrès
+definitions:
+  - 'Action d''avancer, de gagner du terrain : La progression des troupes.'
+  - 'Action de se développer : La progression de la maladie est inéluctable.'
+  - 'Action, fait d''atteindre un niveau, un degré supérieur : Progression du chiffre d''affaires.'
+  - Suite arithmétique ou géométrique relative à un intervalle fini de ℕ.
+synonyms: []

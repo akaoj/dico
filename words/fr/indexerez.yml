@@ -1,0 +1,11 @@
+language: fr
+word: indexerez
+type: verbe transitif
+etymology: ""
+definitions:
+  - 'Lier la variation d''une valeur (titre, salaire, emprunt, etc.) à celle d''un élément (valeur ou grandeur) pris comme système de référence (or, coût de la vie, etc.) : Indexer les loyers sur le coût de la vie.'
+  - Établir l'index d'un document, d'un ouvrage ; placer un mot (auteur, matière, etc.) à sa place dans un index.
+  - En programmation, indiquer dans une instruction que le contenu d'un registre d'index devra être ajouté à la valeur de la zone adresse de l'instruction pour obtenir l'adresse effective de l'opérande.
+  - Apposer sur l'enveloppe d'une lettre des barres fluorescentes représentant le code postal.
+  - Régler un mécanisme en plaçant un élément mobile en face d'un index.
+synonyms: []

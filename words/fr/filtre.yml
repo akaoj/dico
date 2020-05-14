@@ -1,0 +1,13 @@
+language: fr
+word: filtre
+type: nom masculin
+etymology: latin médiéval filtrum, feutre
+definitions:
+  - Corps poreux ou appareil à travers lequel on fait passer un fluide pour le débarrasser des matières qui s'y trouvent en suspension ou pour l'extraire de matières solides ou pâteuses auxquelles il est mélangé.
+  - Dispositif qui permet de faire passer l'eau à travers le café qu'il contient.
+  - 'Dispositif adaptable ou embout d''une cigarette destinés à retenir une partie des goudrons et de la nicotine du tabac : Filtre d''une pipe. Cigarette filtre.'
+  - Objet ou dispositif servant à modifier, par transmission, le flux, la répartition spectrale, ou l'un et l'autre, du rayonnement qui le traverse.
+  - "(Mathématiques) Pour un ensemble X, partie ℱ de \U0001D4DF(X) telle que : 1°  ∈ ℱ ; 2° si B ∈ ℱ et B ⊃ A, alors A ∈ ℱ ; 3° si (A1, A2) ∈ ℱ2, alors A1 ∩ A2 ∈ ℱ."
+  - (Technique) Dispositif destiné à favoriser ou à entraver le passage de certaines composantes de fréquence d'un signal électrique acoustique, lumineux, etc.
+  - (Travaux publics) Ensemble de couches de granulats destinés soit à séparer des zones de nature différente (filtre anticontaminant), soit à recueillir et évacuer l'eau (filtre drainant).
+synonyms: []

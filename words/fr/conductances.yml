@@ -1,0 +1,7 @@
+language: fr
+word: conductances
+type: nom féminin
+etymology: de conduction, d'après résistance
+definitions:
+  - Quotient G du courant continu I qui traverse une portion de circuit par la tension V à ses bornes. (L'unité SI est le siemens [symbole S], égale à 1 Ω−1 et encore appelée mho).
+synonyms: []

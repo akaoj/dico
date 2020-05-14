@@ -1,0 +1,9 @@
+language: fr
+word: connexe
+type: adjectif
+etymology: latin connexus, de nectere, lier
+definitions:
+  - 'Qui est lié à quelque chose d''autre par des rapports étroits, par la similitude ou la dépendance : Sciences connexes.'
+  - Se dit d'un espace topologique dont on ne peut pas faire une bipartition à l'aide de deux ouverts non vides.
+  - Se dit d'une partie A d'un espace topologique E qui est un espace topologique connexe pour la topologie induite sur A par celle de E.
+synonyms: []

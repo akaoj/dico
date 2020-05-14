@@ -1,0 +1,7 @@
+language: fr
+word: thyristor
+type: nom masculin
+etymology: de thyratron et transistor
+definitions:
+  - Élément à conduction unidirectionnelle comportant trois jonctions semi-conductrices et une électrode de commande permettant de déclencher le passage du courant.
+synonyms: []

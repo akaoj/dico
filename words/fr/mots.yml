@@ -1,0 +1,12 @@
+language: fr
+word: mots
+type: nom masculin
+etymology: bas latin muttum, grognement
+definitions:
+  - Élément de la langue composé d'un ou de plusieurs phonèmes, susceptible d'une transcription écrite individualisée et participant au fonctionnement syntacticosémantique d'un énoncé.
+  - 'Moyen d''expression orale ou écrite : Les mots me manquent pour vous dire mon émotion. Il cherche encore ses mots quand il parle anglais.'
+  - 'Petit nombre de paroles prononcées ou écrites : Je lui ai dit quelques mots dans la rue hier. Pourriez-vous nous dire un mot sur ce problème ?'
+  - 'Billet, courte lettre, message : Écrire un mot à quelqu''un.'
+  - 'Sentence, parole mémorable, historique : Mots célèbres.'
+  - (Informatique) Groupe de caractères ou d'éléments binaires considéré comme une entité.
+synonyms: []

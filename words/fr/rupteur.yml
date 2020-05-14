@@ -1,0 +1,9 @@
+language: fr
+word: rupteur
+type: nom masculin
+etymology: latin ruptum, de rumpere, rompre
+definitions:
+  - Appareil destiné à déterminer l'ouverture ou la fermeture d'un ou de plusieurs circuits et dont les éléments mobiles de contact n'ont qu'une position de repos correspondant à la fermeture des circuits principaux.
+  - Dispositif servant à interrompre périodiquement le courant primaire d'une bobine d'induction.
+  - Dispositif destiné à rompre le courant dans un système d'allumage électrique pour produire l'étincelle de la bougie.
+synonyms: []

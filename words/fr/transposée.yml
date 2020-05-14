@@ -1,0 +1,7 @@
+language: fr
+word: transposée
+type: nom féminin
+etymology: ""
+definitions:
+  - Transposée d'une matrice M (αij) de type (n, p), matrice, notée tM, égale à (βij) de type (p, n), telle que βij = αji.
+synonyms: []

@@ -1,0 +1,13 @@
+language: fr
+word: discrètes
+type: adjectif
+etymology: latin discretus, de discernere, séparer
+definitions:
+  - 'Qui agit avec réserve dans ses relations avec autrui, qui veille à ne pas gêner les autres : Un garçon discret, qui ne se mêle pas des affaires de ses voisins.'
+  - 'Qui n''attire pas trop l''attention : Une toilette discrète.'
+  - 'Qui sait garder un secret : Vous pouvez tout me confier : je serai discret.'
+  - 'Qui est retiré, à l''abri des regards : Trouver un coin discret pour discuter.'
+  - (Informatique) Synonyme de numérique.
+  - '(Linguistique) Se dit d''une unité faisant partie d''un système et que l''on peut isoler, délimiter. (Les phonèmes, constituants des morphèmes, sont des unités discrètes en ce sens que la substitution d''un phonème à un autre entraîne une variation au niveau du morphème : ainsi l''opposition de [p] et [b] dans pain et  bain.)'
+  - (Physique et mathématiques) Se dit d'une grandeur, d'une quantité ne pouvant prendre qu'un ensemble fini ou dénombrable de valeurs. (S'oppose à continu.)
+synonyms: []

@@ -1,0 +1,7 @@
+language: fr
+word: déciles
+type: nom masculin
+etymology: latin decem, dix
+definitions:
+  - En statistique, chacune des valeurs d'un caractère quantitatif qui partagent l'étendue des valeurs en dix sous-ensembles d'effectifs égaux.
+synonyms: []

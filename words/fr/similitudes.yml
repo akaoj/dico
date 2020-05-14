@@ -1,0 +1,8 @@
+language: fr
+word: similitudes
+type: nom féminin
+etymology: latin similitudo
+definitions:
+  - 'Ressemblance, analogie, rapport exact entre des choses ou des personnes : Il n''y a aucune similitude entre les deux frères.'
+  - (Mathématiques) 1.  Application f d'un espace affine euclidien dans lui-même telle que la distance des images de deux points quelconques est égale au produit de la distance de ces deux points par un réel strictement positif appelé rapport de similitude.2.  Propriété que possèdent deux figures semblables.3.  Application linéaire d'un espace vectoriel euclidien sur ℝ telle que la norme de l'image d'un vecteur quelconque est égale au produit de la norme du vecteur par un réel positif, appelé rapport.
+synonyms: []

@@ -1,0 +1,8 @@
+language: fr
+word: dualités
+type: nom féminin
+etymology: bas latin dualitas, -atis, du latin classique dualis
+definitions:
+  - 'Caractère de ce qui est double en soi ou composé de deux éléments de nature différente : La dualité de l''être humain.'
+  - 'Relation de réciprocité existant entre certains connecteurs logiques. (La relation entre les connecteurs & [« et »] et OU [« ou »] associés à la négation ¬ en est un bon exemple ; on a : ¬ (p OU q) ↔ ¬ p & ¬ q et ¬ (p & q) ↔ ¬ p OU ¬ q.'
+synonyms: []

@@ -1,0 +1,10 @@
+language: fr
+word: orthogonal
+type: adjectif
+etymology: latin orthogonus, à angle droit
+definitions:
+  - Se dit de certaines affinités, projections ou symétries telles que les plans ou droites affines servant à les définir sont orthogonales.
+  - Se dit de deux courbes, d'une courbe et d'une surface, ou de deux surfaces sécantes, telles que les tangentes, la tangente et le plan tangent ou les deux plans tangents en leur point commun sont orthogonaux.
+  - Se dit de deux droites, plans, etc., affines dont les directions sont orthogonales. (Pour deux droites, la différence entre « orthogonales » et « perpendiculaires » est que dans le second cas elles sont forcément sécantes, contrairement au premier.)
+  - Se dit de deux vecteurs x et y d'un espace vectoriel E, tels que, f étant une forme bilinéaire symétrique de E, f (x, y) = 0.
+synonyms: []

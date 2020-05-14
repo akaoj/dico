@@ -1,0 +1,9 @@
+language: fr
+word: héberger
+type: verbe transitif
+etymology: francique *heribergôn, loger
+definitions:
+  - 'Donner un logement provisoire à quelqu''un, l''accueillir provisoirement : Héberger des amis pour une nuit.'
+  - 'En parlant d''un local, recevoir, abriter provisoirement un groupe, un service : Baraquement qui héberge des sinistrés.'
+  - (Informatique) Accueillir sur un serveur un service ou des pages Web pour les rendre accessibles aux utilisateurs.
+synonyms: []

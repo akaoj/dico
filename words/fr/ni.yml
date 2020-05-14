@@ -1,0 +1,9 @@
+language: fr
+word: ni
+type: conjonction
+etymology: ancien français ne, du latin nec
+definitions:
+  - 'Indique une coordination dans les phrases où la négation intéresse le verbe : Il ne veut ni ne peut refuser.'
+  - 'Répété, unit les constituants semblables d''une proposition négative, ou deux ou plusieurs propositions négatives : Je ne les envie ni les uns ni les autres.'
+  - 'Ni est coordonné avec sans dans le cas où ce dernier n''est pas répété : Il est sorti sans col ni cravate (ou sans col et sans cravate).'
+synonyms: []

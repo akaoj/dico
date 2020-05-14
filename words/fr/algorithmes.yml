@@ -1,0 +1,7 @@
+language: fr
+word: algorithmes
+type: nom masculin
+etymology: latin médiéval algorithmus, latinisation du nom d'un mathématicien de langue arabe, avec influence du grec arithmos, nombre
+definitions:
+  - Ensemble de règles opératoires dont l'application permet de résoudre un problème énoncé au moyen d'un nombre fini d'opérations. Un algorithme peut être traduit, grâce à un langage de programmation, en un programme exécutable par un ordinateur.
+synonyms: []

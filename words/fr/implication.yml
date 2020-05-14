@@ -1,0 +1,9 @@
+language: fr
+word: implication
+type: nom féminin
+etymology: latin implicatio, -onis
+definitions:
+  - 'État de quelqu''un qui est impliqué dans une affaire : Son implication dans ce scandale n''est pas prouvée.'
+  - 'Ce qui est impliqué par quelque chose ; conséquence attendue (surtout pluriel) : Les implications politiques d''une décision économique.'
+  - 'Connecteur propositionnel noté →, ⊃ ou ⇒ (p → q se lit « p implique q » ou « si p, alors q »), dont la définition est donnée par la table de vérité :'
+synonyms: []

@@ -1,0 +1,11 @@
+language: fr
+word: si
+type: conjonction
+etymology: latin si
+definitions:
+  - 'avec l''indicatif présent ou passé, la condition (éventuel) : Si tu viens me voir, tu seras bien reçu.'
+  - 'avec l''indicatif imparfait ou plus-que-parfait, la répétition ; toutes les fois que : S''il se trompait, on corrigeait son erreur.'
+  - 'avec l''indicatif imparfait (et le conditionnel dans la principale), une hypothèse irréalisable dans le présent (irréel du présent) ou réalisable dans l''avenir (potentiel) : Si j''avais ce livre, je vous le donnerais. Si je trouvais ce livre, je vous le donnerais.'
+  - 'avec l''indicatif ou le subjonctif plus-que-parfait (et le conditionnel ou le subjonctif plus-que-parfait dans la principale), une hypothèse qui n''a pu se réaliser dans le passé (irréel du passé) : Si je vous avais vu, je vous aurais prévenu.'
+  - 'dans les phrases exclamatives avec l''imparfait, un souhait irréalisable ou douteux et, avec le plus-que-parfait, le regret : Si au moins il faisait beau demain !'
+synonyms: []

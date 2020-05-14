@@ -1,0 +1,9 @@
+language: fr
+word: décroissante
+type: adjectif
+etymology: ""
+definitions:
+  - 'Qui décroît, diminue : Par ordre décroissant.'
+  - (Mathématiques) Se dit d'une fonction f d'un ensemble ordonné (E,<) dans un ensemble ordonné (F,<) telle que∀(x, x′)∈E2, x<x′⇒ f(x′)<f(x). [Pour une suite, E = ℕ.]
+  - (Phonétique) Se dit d'une consonne qui se situe, dans la syllabe, après le sommet syllabique que forme généralement la voyelle (par exemple [p] dans cape) ; se dit d'une diphtongue dont l'aperture diminue progressivement.
+synonyms: []

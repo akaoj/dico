@@ -1,0 +1,8 @@
+language: fr
+word: transistor
+type: nom masculin
+etymology: anglais transistor, de transfer resistor, résistance de transfert
+definitions:
+  - Dispositif à semi-conducteur, qui, comme un tube électronique, peut amplifier des courants électriques, engendrer des oscillations électriques et assumer les fonctions de modulation et de détection.
+  - Vieilli. Récepteur de radiodiffusion portatif équipé de transistors.
+synonyms: []

@@ -1,0 +1,11 @@
+language: fr
+word: impaires
+type: adjectif
+etymology: latin impar, -aris, inégal
+definitions:
+  - 'Qui n''est pas divisible par deux : Trois, cinq sont des nombres impairs.'
+  - 'Qui est en nombre impair ; qui est exprimé par un nombre, un chiffre impair : Une année impaire n''est jamais bissextile.'
+  - Se dit du côté d'une rue ayant des numéros impairs.
+  - (Anatomie) Se dit des organes qui sont uniques dans l'organisme et n'ont pas de symétrique (cœur, estomac, foie, etc.).
+  - (Mathématiques) 1.  Synonyme de négatif, pour les isométries vectorielles.2.  Se dit d'une fonction f de D ⊂ ℝ dans ℝ, vérifiant à la fois ∀ x ∈ D, (−x) ∈ D et ∀ x ∈ D, f(−x) = −f(x). (Sa représentation graphique est symétrique par rapport à l'origine du repère.)
+synonyms: []

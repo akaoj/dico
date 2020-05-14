@@ -1,0 +1,14 @@
+language: fr
+word: bruit
+type: nom masculin
+etymology: de bruire
+definitions:
+  - 'Ensemble des sons produits par des vibrations plus ou moins irrégulières ; tout phénomène perceptible par l''ouïe : Écouter le bruit de la pluie.'
+  - 'Ensemble des sons perçus comme étant sans harmonie, par opposition à la musique : Lutter contre le bruit.'
+  - 'Son imprévu qui vient se superposer au rythme continu de quelque chose, d''un appareil : Il y a un bruit dans le moteur.'
+  - 'Nouvelle ou opinion répandues dans le public, retentissement public d''un événement : Le bruit de son succès s''est répandu.'
+  - (Acoustique) Vibration des particules d'un milieu présentant un caractère erratique, statistiquement aléatoire. (À la différence des sons musicaux, les bruits peuvent être considérés comme résultant de la superposition de nombreuses vibrations à des fréquences diverses, non harmoniques les unes des autres.)
+  - (Cybernétique et télécommunications) Ensemble de perturbations de toute nature et de toute origine venant se superposer à un signal utile en un point quelconque de l'espace ou d'une voie de transmission.
+  - (Informatique) Phénomène de restitution de documents non pertinents lors de l'interrogation d'un système documentaire automatique.
+  - (Phonétique) Caractère des unités phoniques dont le spectre est constitué essentiellement de fréquences non périodiques. (On parle du bruit d'explosion des occlusives et du bruit de friction des constrictives.)
+synonyms: []

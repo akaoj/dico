@@ -1,0 +1,7 @@
+language: fr
+word: factorielle
+type: nom féminin
+etymology: ""
+definitions:
+  - 'Factorielle n, entier naturel noté n ! et défini par : 0 ! = 1 et pour tout n ;≥ 1 n ! = (n −1) !× n, d''où n ! = 1 ;× 2 × 3 × … ×(n −1) × n.'
+synonyms: []

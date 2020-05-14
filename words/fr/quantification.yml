@@ -1,0 +1,9 @@
+language: fr
+word: quantification
+type: nom féminin
+etymology: anglais quantification
+definitions:
+  - Opération consistant à lier les variables libres d'une formule logique par des quantificateurs.
+  - Propriété d'une grandeur physique dont l'ensemble des valeurs numériques possibles est restreint à un ensemble de valeurs discrètes ; opération permettant d'aboutir à la détermination de ces valeurs.
+  - Passage d'une description classique d'un système physique à une description quantique.
+synonyms: []

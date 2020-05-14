@@ -1,0 +1,12 @@
+language: fr
+word: affinité
+type: nom féminin
+etymology: latin affinitas, parenté
+definitions:
+  - 'Conformité, harmonie de goûts, de sentiments, de caractère entre deux ou plusieurs personnes ; conformité, ressemblance entre des choses : Il existe des affinités entre ces deux partis.'
+  - (Biologie) 1.  Parenté supposée entre deux espèces.2.  Aptitude de deux espèces à produire ensemble des hybrides féconds entre eux.
+  - (Chimie) Tendance des corps à se combiner. (On convient de prendre comme mesure de l'affinité la diminution d'énergie libre du système entre l'état initial du mélange de corps réagissants et l'état final après réaction.)
+  - '(Géométrie) Application f du plan affine (respectivement de l''espace affine de dimension 3) dans lui-même, définie à partir d''une droite D (respectivement d''un plan P), d''une direction de droite Δ non parallèle à D (respectivement à P), d''un nombre réel k, qui à tout point M du plan (respectivement de l''espace) associe le point  tel que si H désigne l''intersection de D (respectivement P) avec Δ′, parallèle à Δ passant par M, on ait : . (Cette transformation est l''affinité relative à D [respectivement P], de direction Δ et de rapport k. Cette définition se généralise facilement à un espace affine de dimension n. Dans un plan affine ou un espace affine de dimension 3, une symétrie affine est une affinité de rapport −1.)'
+  - (Linguistique) Ressemblances structurelles (organisation de la phrase, déclinaison, etc.) entre des langues.
+  - (Religion) Lien juridique que le mariage établit entre les consanguins du mari ou de l'épouse.
+synonyms: []

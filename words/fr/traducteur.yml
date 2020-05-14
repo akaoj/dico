@@ -1,0 +1,8 @@
+language: fr
+word: traducteur
+type: nom masculin
+etymology: ""
+definitions:
+  - Élément qui reçoit un signal d'entrée sous la forme d'une première grandeur physique et qui émet un signal de sortie sous la forme d'une autre grandeur physique dite grandeur traduite.
+  - Programme informatique traduisant un programme écrit dans un langage en un programme écrit dans un autre langage.
+synonyms: []

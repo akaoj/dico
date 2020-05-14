@@ -1,0 +1,14 @@
+language: fr
+word: arbres
+type: nom masculin
+etymology: latin arbor, -oris
+definitions:
+  - Végétal vivace, ligneux, rameux, atteignant au moins 7 m de hauteur et ne portant de branches durables qu'à une certaine distance du sol.
+  - 'Figure arborescente servant à représenter schématiquement les filiations entre les éléments d''un ensemble : Arbre généalogique.'
+  - (Chimie) Nom donné à divers dépôts métalliques présentant la forme d'arborisations.
+  - (Électricité) Ensemble connexe de branches reliant tous les nœuds d'un réseau sans former de boucle.
+  - (Informatique) Représentation d'un programme, ou d'un algorithme, sous la forme d'un graphe faisant apparaître les diverses séquences de calcul, leurs enchaînements et les aiguillages entre ces séquences.
+  - (Linguistique) Représentation graphique de la structure en constituants d'une phrase.
+  - (Mathématiques) En théorie des graphes, graphe connexe et dont la condition d'unicité des chemins depuis la source implique l'absence de cycle et de circuit.
+  - (Mécanique) Pièce de révolution utilisée pour transmettre un mouvement de rotation.
+synonyms: []

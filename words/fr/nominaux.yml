@@ -1,0 +1,10 @@
+language: fr
+word: nominaux
+type: adjectif
+etymology: latin nominalis, de nomen, -inis, nom
+definitions:
+  - 'Relatif au nom désignant quelque chose ou quelqu''un : Ce n''est qu''une erreur nominale.'
+  - 'Qui n''existe que de nom et non en fait : N''être qu''un chef nominal.'
+  - 'Se dit d''une caractéristique, d''une performance d''un appareil, d''une machine, annoncée par le constructeur ou prévue par le cahier des charges : Altitude nominale d''un satellite.'
+  - Qui est relatif au nom, équivaut à un nom, a valeur de nom.
+synonyms: []

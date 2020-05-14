@@ -1,0 +1,8 @@
+language: fr
+word: graphème
+type: nom masculin
+etymology: de graphie, avec l'influence de phonème
+definitions:
+  - 'Unité graphique minimale entrant dans la composition d''un système d''écriture. (Le graphème est un élément abstrait se réalisant concrètement par ses allographes : ainsi A, A, a, a sont des allographes du même graphème.)'
+  - Unité minimale de la forme écrite d'une langue ayant son correspondant dans la forme orale (s, c, ss, sc, ç sont des graphèmes correspondant au phonème |s|.)
+synonyms: []

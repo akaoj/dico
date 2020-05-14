@@ -1,0 +1,8 @@
+language: fr
+word: soustraction
+type: nom féminin
+etymology: ancien français subtraction, du bas latin subtractio, du latin classique subtrahere, soustraire
+definitions:
+  - Action de soustraire, de s'approprier quelque chose contre le gré du détenteur légitime.
+  - Opération qui consiste à trouver, s'il existe, le nombre x, appelé différence de b et a, tel que a + x = b. (x existe dans ℕ, seulement si b ≥ a. Dans les autres ensembles de nombres, x existe toujours. On écrit x = b − a.)
+synonyms: []

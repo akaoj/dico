@@ -1,0 +1,7 @@
+language: fr
+word: antisymétrique
+type: adjectif
+etymology: ""
+definitions:
+  - Se dit d'une relation binaire entre éléments d'un ensemble telle que, si elle est vérifiée pour un couple (a, b) et pour un couple (b, a), les éléments a et b sont identiques.
+synonyms: []

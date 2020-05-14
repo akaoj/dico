@@ -1,0 +1,11 @@
+language: fr
+word: clientes
+type: nom
+etymology: latin cliens, -entis
+definitions:
+  - 'Personne qui reçoit d''une entreprise, contre paiement, des fournitures commerciales ou des services : Les clients d''un hôtel.'
+  - Personnage ou famille qui, à Rome, se mettait sous la protection d'un patricien (son patron).
+  - Personne qui se place sous la protection d'un homme puissant.
+  - 'Familier. Personne, individu quelconque : Mon voisin est un drôle de client.'
+  - (Informatique) 1.  Programme qui sollicite les services d'un autre programme pour exécuter une tâche.2.  Poste à partir duquel l'utilisateur d'un réseau fait appel aux services d'un serveur distant.
+synonyms: []

@@ -1,0 +1,10 @@
+language: fr
+word: multiple
+type: adjectif
+etymology: latin multiplex, -icis
+definitions:
+  - 'Qui n''est pas unique, qui se présente sous des aspects divers, nombreux ou existe en grand nombre, apparaît un grand nombre de fois : Produit à usages multiples.'
+  - 'Qui présente plusieurs parties distinctes assurant le même fonctionnement, la même fonction : Prise multiple.'
+  - (Acoustique) Se dit d'un écho qui répète le même son deux ou plusieurs fois de suite.
+  - (Mathématiques) 1.  Se dit de la racine a d'un polynôme telle qu'il existe un entier k supérieur à 1 pour lequel le polynôme est divisible par (x − a)k 2.  Se dit d'un point d'une courbe atteint pour k (k ≥ 2) valeurs distinctes du paramètre. (On dit alors point multiple d'ordre k et, si k = 2, on parle de point double.)
+synonyms: []

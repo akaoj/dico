@@ -1,0 +1,7 @@
+language: fr
+word: admittances
+type: nom féminin
+etymology: anglais admittance, admission
+definitions:
+  - Quotient de la valeur efficace du courant électrique qui circule dans un circuit passif par la valeur efficace de la tension sinusoïdale appliquée. (C'est l'inverse de l'impédance, son unité est le siemens.)
+synonyms: []

@@ -1,0 +1,8 @@
+language: fr
+word: demi-droite
+type: nom féminin
+etymology: ""
+definitions:
+  - Demi-droite affine d'origine A, ensemble des points M tels que  est élément d'une même demi-droite vectorielle.
+  - Demi-droite vectorielle d'un ℝ-espace vectoriel E, partie de E formée par les vecteurs de la forme λx, où λ est un réel positif et x un vecteur non nul de E.
+synonyms: []

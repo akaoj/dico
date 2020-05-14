@@ -1,0 +1,9 @@
+language: fr
+word: gradient
+type: nom masculin
+etymology: latin gradus, degré, avec l'influence de quotient
+definitions:
+  - Taux de variation d'un élément météorologique en fonction de la distance. (Dans le sens vertical, le gradient de température [gradient thermique] s'exprime en °C par 100 m [exemple gradient adiabatique]. Dans le sens horizontal, le gradient de pression s'exprime en hectopascals par 100 km ou par degré géographique [111 km].)
+  - Mesure de la variation continue d'une grandeur physiologique ou biochimique d'un être vivant le long d'un axe privilégié, dont les extrémités sont appelées pôles.
+  - En psychologie, relation quantitative entre un paramètre d'un comportement et une variable de l'environnement.
+synonyms: []

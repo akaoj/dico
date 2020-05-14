@@ -1,0 +1,11 @@
+language: fr
+word: symétries
+type: nom féminin
+etymology: latin symmetria, du grec summetria, de sun, avec, et metron, mesure
+definitions:
+  - 'Correspondance de position de deux ou de plusieurs éléments par rapport à un point, à un plan médian : Vérifier la parfaite symétrie des fenêtres sur une façade.'
+  - 'Aspect harmonieux résultant de la disposition régulière, équilibrée des éléments d''un ensemble : Un visage qui manque de symétrie.'
+  - Répétition des organes ou des segments ou articles du corps par rapport à une ligne ou à un plan.
+  - Transformation affine qui, à un point M, associe un point M′, tel que le milieu de [MM′] est soit un point fixe (symétrie centrale), soit un point d'une droite ou d'un plan H1, (MM′) étant alors parallèle à une droite ou à un plan H2 sécant avec H1.
+  - Invariance d'une figure par une symétrie orthogonale. (On dit aussi autosymétrie).
+synonyms: []

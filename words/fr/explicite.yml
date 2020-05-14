@@ -1,0 +1,9 @@
+language: fr
+word: explicite
+type: adjectif
+etymology: latin explicitus, de explicare, expliquer
+definitions:
+  - 'Qui est énoncé complètement et ne peut prêter à aucune contestation : Un texte de loi explicite.'
+  - 'Qui s''exprime complètement et clairement sans laisser place à l''ambiguïté : Je serai explicite : vous êtes un incapable.'
+  - Se dit d'une grammaire dont les règles peuvent être formalisées.
+synonyms: []

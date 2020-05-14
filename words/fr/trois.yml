@@ -1,0 +1,9 @@
+language: fr
+word: trois
+type: adjectif numéral cardinal
+etymology: latin tres
+definitions:
+  - 'Deux plus un : Il a trois ans.'
+  - 'S''emploie au sens de « troisième » dans une numérotation, l''expression d''un rang, etc. : Chapitre trois. Pie III.'
+  - 'Faible quantité, sans précision : Il n''a pas dit trois mots de la soirée.'
+synonyms: []

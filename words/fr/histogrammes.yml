@@ -1,0 +1,7 @@
+language: fr
+word: histogrammes
+type: nom masculin
+etymology: anglais histogram
+definitions:
+  - Graphique obtenu en portant sur un axe les intervalles de classes d'une distribution statistique et, sur ces intervalles, des rectangles ayant une aire proportionnelle à l'effectif ou à la fréquence de la classe.
+synonyms: []

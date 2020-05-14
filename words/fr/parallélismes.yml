@@ -1,0 +1,11 @@
+language: fr
+word: parallélismes
+type: nom masculin
+etymology: bas grec parallêlismos, du grec classique parallêlos
+definitions:
+  - Propriété de droites, de plans, de courbes, qui sont parallèles.
+  - 'Fait d''être parallèle : Le parallélisme des roues.'
+  - 'Correspondance entre des choses : Le parallélisme entre la réduction de l''inflation et la baisse des prix du pétrole.'
+  - Technique d'accroissement des performances d'un système informatique fondée sur l'utilisation simultanée de plusieurs processeurs. (Quand le nombre de processeurs est très important, on parle de parallélisme massif.)
+  - Dans la poésie orientale, forme de style consistant dans le partage de la pensée, suivant un certain rythme, en membres de phrases parallèles.
+synonyms: []

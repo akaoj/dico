@@ -1,0 +1,9 @@
+language: fr
+word: docteurs
+type: nom
+etymology: latin doctor, de docere, enseigner
+definitions:
+  - 'Personne qui a obtenu le doctorat conféré par une université : Un docteur ès lettres. Elle est docteure en droit.'
+  - Personne qui, pourvue du doctorat, est habilitée à exercer la médecine, la chirurgie dentaire, la pharmacie, l'art vétérinaire.
+  - Appellation usuelle pour un homme ou une femme exerçant ces professions.
+synonyms: []

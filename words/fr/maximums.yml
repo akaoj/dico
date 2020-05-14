@@ -1,0 +1,9 @@
+language: fr
+word: maximums
+type: nom masculin
+etymology: latin maximum, le plus grand
+definitions:
+  - 'Le plus haut degré atteint par quelque chose ou que cette chose puisse atteindre : Il a le maximum de chances. Constater des maximums (d''augmentation) de 50 % dans certains magasins.'
+  - 'Limite supérieure de la peine que le juge peut prononcer : Être condamné au maximum.'
+  - '(Mathématiques) 1.  Plus grand élément d''un ensemble ordonné.2.  Réel f(x0), s''il existe, tel que ∀ x ∈ E, f(x) ≤ f(x0) pour une fonction f : E → ℝ (E ensemble quelconque) et x0 ∈ E. (On précise parfois maximum absolu.)'
+synonyms: []

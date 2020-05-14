@@ -1,0 +1,9 @@
+language: fr
+word: amplitude
+type: nom féminin
+etymology: latin amplitudo
+definitions:
+  - 'Étendue considérable de quelque chose : L''amplitude d''une catastrophe.'
+  - (Climatologie) Écart entre les deux valeurs extrêmes d'un élément périodique du climat. (La notion d'amplitude s'applique en particulier à la température et constitue un élément de base de la classification des climats.)
+  - (Physique) 1.  Fonction qui représente l'importance d'une grandeur physique variable soit dans le temps, soit dans l'espace, soit dans l'espace-temps.2.  Dans certains cas particulièrement simples, valeur maximale de cette fonction.3.  En physique quantique, grandeur complexe qui caractérise les transitions d'un système d'un état à un autre.
+synonyms: []

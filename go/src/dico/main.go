@@ -48,13 +48,13 @@ func main() {
 Examples:
 
 To retrieve the definitions for a list of French words and store them in the data/ folder:
-  echo -e "baguette\noui\nmerci" | dico -l fr --fetch --fetch-to=data/ --fetch-concurrency=3
+  echo -e "baguette\noui\nmerci" | dico -l fr --fetch --fetch-to=words/ --fetch-concurrency=3
 or
-  cat wordsList.txt | dico -l fr --fetch --fetch-to=data/ --fetch-concurrency=200
+  cat wordsList.txt | dico -l fr --fetch --fetch-to=words/ --fetch-concurrency=200
 
 To collect the definitions available in data/ and put them in the database
 (database location defaults at ~/.local/share/dico/dico.db):
-  dico --collect=data/
+  dico --collect=words/
 
 To search for a definition for a French word (default language, when --language is not provided, is "en"):
   dico -l fr baguette

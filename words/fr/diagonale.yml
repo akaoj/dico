@@ -1,0 +1,13 @@
+language: fr
+word: diagonale
+type: nom féminin
+etymology: ""
+definitions:
+  - Droite définie par deux sommets non consécutifs d'un polygone.  (Un polygone de n côtés a n(n − 3)s2 diagonales.)
+  - Droite définie par deux sommets d'un polyèdre qui n'appartiennent pas à la même face.
+  - Segment de droite qui a pour extrémités deux sommets non consécutifs d'un polygone, ou deux sommets d'un polyèdre n'appartenant pas à la même face ; longueur de segment.
+  - Dans une matrice carrée, dans un déterminant, dans un tableau à double entrée, ensemble des éléments aij appartenant à une ligne et à une colonne de même rang. (On l'appelle diagonale principale pour la distinguer de la seconde diagonale formée par les éléments aij d'une matrice carrée d'ordre n, tels que i + j = n + 1.)
+  - Dans le produit de deux ensembles identiques, ensemble des couples formés d'éléments identiques.
+  - Communication entre deux voies ferrées parallèles, comportant un branchement sur chaque voie et un court tronçon de raccord.
+  - Étoffe présentant une côte oblique par rapport aux lisières.
+synonyms: []

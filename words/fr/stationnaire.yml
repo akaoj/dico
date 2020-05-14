@@ -1,0 +1,10 @@
+language: fr
+word: stationnaire
+type: adjectif
+etymology: bas latin stationarius, du latin classique statio, -onis, immobilité
+definitions:
+  - 'Se dit du temps, des conditions atmosphériques qui ne changent pas : Des nappes de brouillard stationnaires.'
+  - 'Qui ne subit aucune évolution, reste dans le même état : L''état du malade est stationnaire.'
+  - (Mathématiques) Se dit d'un point d'un arc paramétré (I, f) où f′ s'annule.
+  - (Physique) Se dit des phénomènes physiques qui se reproduisent identiquement à eux-mêmes au cours du temps.
+synonyms: []

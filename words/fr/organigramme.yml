@@ -1,0 +1,8 @@
+language: fr
+word: organigramme
+type: nom masculin
+etymology: de organiser
+definitions:
+  - Graphique de la structure d'une organisation complexe (entreprise, groupement, etc.), représentant à la fois les divers éléments du groupe et leurs rapports respectifs.
+  - En informatique, représentation graphique d'un problème, de son analyse et de sa résolution à l'aide de symboles traduisant des opérations, des données, des liaisons ou des appareils.
+synonyms: []

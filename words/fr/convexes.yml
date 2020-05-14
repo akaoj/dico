@@ -1,0 +1,8 @@
+language: fr
+word: convexes
+type: adjectif
+etymology: latin convexus
+definitions:
+  - 'Qui présente une courbure sphérique en relief ; qui est arrondi en dehors : Miroirs convexes.'
+  - Se dit d'un ensemble ponctuel E (différent d'une courbe) tel que tout segment ayant ses extrémités dans E est entièrement inclus dans E.
+synonyms: []

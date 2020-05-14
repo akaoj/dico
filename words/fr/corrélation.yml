@@ -1,0 +1,10 @@
+language: fr
+word: corrélation
+type: nom féminin
+etymology: latin médiéval correlatio
+definitions:
+  - 'Relation existant entre deux notions dont l''une ne peut être pensée sans l''autre, entre deux faits liés par une dépendance nécessaire : Établir une corrélation entre la délinquance et le milieu social.'
+  - (Biologie) Lien constant existant, chez un animal ou une plante, entre deux ou plusieurs caractères affectant des parties différentes de son corps. (Ces corrélations, sur lesquelles a beaucoup insisté Cuvier, peuvent concourir à adapter une espèce à un milieu ou à un régime alimentaire précis, ou n'avoir aucune utilité en tant que telles.)
+  - (Électronique) Technique utilisée dans les systèmes de détection pour extraire un signal d'un bruit de fond.
+  - (Statistique) Liaison entre deux caractères (corrélation simple) ou plus (corrélation multiple) telle que les variations de leurs valeurs soient toujours de même sens (corrélation positive) ou de sens opposé (corrélation négative).
+synonyms: []

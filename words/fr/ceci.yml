@@ -1,0 +1,8 @@
+language: fr
+word: ceci
+type: pronom démonstratif
+etymology: de ce 1 et ci, adverbe
+definitions:
+  - 'Désigne les choses en les montrant (fonction déictique) : Ceci est un échantillon de notre production.'
+  - 'Par opposition à cela, désigne un objet voisin, un fait actuel, la chose dont on parle ou dont on va parler (fonction anaphorique) : Notez bien ceci : le témoin n''a pas vu lui-même l''accusé.'
+synonyms: []

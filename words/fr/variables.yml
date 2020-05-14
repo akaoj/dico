@@ -1,0 +1,11 @@
+language: fr
+word: variables
+type: nom féminin
+etymology: ""
+definitions:
+  - Élément qui peut prendre des valeurs différentes à l'intérieur d'un ensemble, d'un système, d'une relation.
+  - (Informatique) Information identifiée par un nom ou par une adresse, et pouvant prendre une ou plusieurs valeurs numériques, logiques ou alphanumériques, au cours du déroulement d'un programme.
+  - (Logique et mathématiques) Terme indéterminé qui, dans une relation ou une fonction, peut être remplacé alternativement par divers termes déterminés (constantes) qui en sont les valeurs.
+  - (Mathématiques) Nom qui désigne un élément quelconque d'un ensemble.
+  - (Statistique) Grandeur susceptible de varier dans un ensemble donné, et telle qu'à chaque valeur prise par cette grandeur puisse correspondre, au moins théoriquement, un effectif de personnes ou une fréquence en pourcentage.
+synonyms: []

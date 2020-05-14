@@ -1,0 +1,11 @@
+language: fr
+word: alphabets
+type: nom masculin
+etymology: latin alphabetum, du grec alpha et bêta, noms des deux premières lettres de l'alphabet grec
+definitions:
+  - Système de signes graphiques, disposés dans un ordre conventionnel, et servant à transcrire les sons d'une langue ; ensemble de ces signes.
+  - Synonyme de abécédaire.
+  - Ensemble des lettres, des chiffres et des signes nécessaires pour la composition des textes.
+  - Ensemble de caractères, et éventuellement de leur codification associée, utilisé dans un système informatique.
+  - Système de représentation des sons au moyen des lettres.
+synonyms: []

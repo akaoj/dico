@@ -1,0 +1,10 @@
+language: fr
+word: pointeurs
+type: nom masculin
+etymology: ""
+definitions:
+  - Variable, dans un langage de programmation, dont la valeur est le nom ou l'adresse d'une autre variable.
+  - Registre ou cellule de mémoire qui contient l'adresse d'une information, ou d'un ensemble d'informations, à laquelle l'information consécutive est liée.
+  - Couple  où P est un point d'un espace affine A et  un vecteur de l'espace vectoriel associé E.
+  - En informatique, curseur généralement en forme de flèche qui suit sur l'écran d'un ordinateur les mouvements de la souris et qui indique la zone de l'écran qui sera affectée lorsque l'utilisateur cliquera.
+synonyms: []

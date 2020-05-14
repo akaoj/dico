@@ -1,0 +1,8 @@
+language: fr
+word: primitive
+type: nom féminin
+etymology: ""
+definitions:
+  - Instruction élémentaire ou fonction de base utilisée dans un langage de programmation.
+  - Pour une fonction f définie sur un intervalle de ℝ et à valeurs réelles ou complexes, fonction F qui est dérivable et telle que F′ = f.
+synonyms: []

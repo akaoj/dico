@@ -1,0 +1,7 @@
+language: fr
+word: convolution
+type: nom féminin
+etymology: latin convolutus, de convolvere, s'enrouler autour
+definitions:
+  - Produit de convolution de f et g, fonction notée f ⋆g, définie par , f et g étant toutes deux intégrables.
+synonyms: []

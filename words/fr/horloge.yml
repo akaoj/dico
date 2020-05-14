@@ -1,0 +1,8 @@
+language: fr
+word: horloge
+type: nom féminin
+etymology: latin horologium, du grec hôrologion, de hôra, heure, et legein, dire
+definitions:
+  - Appareil horaire fixe, de grandes dimensions, possédant un dispositif d'indication de l'heure sur un cadran, et souvent un dispositif de sonnerie des heures et des demi-heures.
+  - (Informatique) Dispositif qui fournit le signal périodique servant à synchroniser le fonctionnement d'un microprocesseur et ses échanges avec l'extérieur.
+synonyms: []

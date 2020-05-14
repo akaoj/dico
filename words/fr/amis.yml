@@ -1,0 +1,9 @@
+language: fr
+word: amis
+type: nom
+etymology: latin amicus, amica
+definitions:
+  - 'Personne avec laquelle on est uni par l''amitié : Une amie d''enfance, de lycée.'
+  - 'Se dit des animaux et des objets familiers, de toutes les choses pour lesquelles on a un attachement sentimental : Nos fidèles amis les livres.'
+  - '(Informatique) Membre d’un réseau social auquel un autre membre accorde l’accès à ses données personnelles : Avoir de nombreux amis sur Facebook.'
+synonyms: []

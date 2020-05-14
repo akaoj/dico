@@ -1,0 +1,11 @@
+language: fr
+word: paramètres
+type: nom masculin
+etymology: de grec metron, mesure
+definitions:
+  - Grandeur mesurable permettant de présenter de façon plus simple et plus abrégée les caractéristiques principales d'un ensemble statistique.
+  - 'Élément en fonction duquel on explicite les caractéristiques essentielles d''un phénomène, d''une question : La pluie, l''obscurité sont des paramètres dont il faut tenir compte.'
+  - Nom donné à certains coefficients, à certaines quantités, autres que la variable ou l'inconnue, en fonction desquels on peut exprimer une proposition ou les solutions d'un problème.
+  - Pour un arc paramétré (I, f), nombre réel variable qui décrit I ; pour une surface paramétrée (A, g), chacune des deux variables réelles de la fonction g.
+  - En informatique, variable dont la valeur, l'adresse ou le nom ne sont précisés qu'à l'exécution du programme.
+synonyms: []

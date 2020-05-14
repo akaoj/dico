@@ -1,0 +1,9 @@
+language: fr
+word: extrapolations
+type: nom féminin
+etymology: de interpolation
+definitions:
+  - 'Généralisation, déduction hardie à partir de données fragmentaires : Ce sont de simples extrapolations.'
+  - Procédure ayant pour objet de prolonger la validité d'une loi, ou la connaissance d'une fonction, au-delà des limites dans lesquelles elle est donnée. (Le problème de l'extrapolation se pose quand on veut découvrir une loi générale, connaissant seulement un nombre limité de résultats d'expérience.)
+  - Procédé consistant à prolonger une série statistique en introduisant à la suite des termes anciens un terme nouveau qui obéit à la loi de la série, ou, graphiquement, à déterminer l'ordonnée d'un point situé dans le prolongement d'une courbe et qui vérifie l'équation de cette courbe.
+synonyms: []

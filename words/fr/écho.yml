@@ -1,0 +1,16 @@
+language: fr
+word: écho
+type: nom masculin
+etymology: latin echo, du grec êkhô
+definitions:
+  - Effet d'une onde acoustique qui parvient à un point donné, après réflexion, avec une intensité et un retard suffisants pour être perçue comme distincte de l'onde directe par un auditeur placé en ce point.
+  - Lieu où se produit l'écho.
+  - 'Ce qui reproduit ou rappelle quelque chose ; trace, marque : On retrouve dans ce film un écho des préoccupations de l''époque.'
+  - 'Information que l''on a par l''intermédiaire de quelqu''un ; nouvelles : Avez-vous eu des échos de leurs entretiens ?'
+  - Dans un journal, rubrique consacrée aux anecdotes, aux à-côtés de la vie politique, mondaine, etc.
+  - 'Réponse favorable donnée à une invitation, à une proposition ; résonance : Cette offre est restée sans écho.'
+  - Titre pris par certains journaux ou mensuels (avec majuscule).
+  - (Informatique) Méthode de comparaison pour détecter d'éventuelles erreurs de transmission entre un signal émis et un signal reçu, par réémission du signal reçu vers l'émetteur d'origine.
+  - (Littérature) Petit vers consistant dans la répétition de la dernière syllabe du vers précédent ; poésie contenant de ces vers.
+  - (Télécommunications) Signal qui parvient en un point par un trajet différent du trajet normal (par exemple après réflexion) avec une intensité et un retard suffisants pour être distingué du signal normal ou perturber celui-ci.
+synonyms: []

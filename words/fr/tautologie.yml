@@ -1,0 +1,8 @@
+language: fr
+word: tautologie
+type: nom féminin
+etymology: bas latin tautologia, du grec tautologia
+definitions:
+  - Négligence de style ou procédé rhétorique consistant à répéter la même idée en termes différents, soit dans la même proposition (J'en porte la responsabilité pleine et entière), soit dans deux propositions voisines (Étant en effet Boubouroche, Boubouroche déclara qu'il était Boubouroche [Courteline]).
+  - Formule logique universelle valide, selon laquelle A OU A → A (tautologie du calcul des propositions) et∀x P(x) → ∃x P(x) , avec x appartenant à un ensemble non vide (tautologie du calcul des prédicats).
+synonyms: []

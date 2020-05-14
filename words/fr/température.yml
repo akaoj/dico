@@ -1,0 +1,10 @@
+language: fr
+word: température
+type: nom féminin
+etymology: latin temperatura
+definitions:
+  - Ensemble des conditions atmosphériques, variables, traduites subjectivement en sensations relatives de chaud et de froid, et dont l'appréciation exacte est fournie par le thermomètre.
+  - 'Degré de chaleur d''un lieu, d''une substance, d''un corps : La température d''un four.'
+  - 'Degré de chaleur interne du corps humain ou animal : Prendre sa température.'
+  - (Thermodynamique) Grandeur empirique caractéristique d'un système, qui permet une description quantitative des phénomènes liés à la sensation de chaud ou de froid ressentie à son contact et qui est d'autant plus élevée que le système est chaud.
+synonyms: []

@@ -1,0 +1,16 @@
+language: fr
+word: matrices
+type: nom féminin
+etymology: latin matrix, -icis
+definitions:
+  - Synonyme vieilli de utérus.
+  - (Géologie) Synonyme de ciment.
+  - (Imprimerie) Parallélépipède de cuivre ayant reçu en creux l'empreinte d'un signe typographique, utilisé pour la fonte des polices de caractères et pour la composition mécanique.
+  - (Mathématiques) Famille (αij) d'éléments d'un corps K, (i, j) ∈ { 1, …, n } × { 1, …, p}, n et p étant deux naturels, habituellement présentée sous la forme d'un tableau rectangulaire à n lignes et p colonnes [matrice de type (n, p)].
+  - (Métallurgie) Constituant principal d'un alliage présentant une certaine continuité, dans lequel sont enrobés les autres constituants.
+  - (Monnaies) Instrument en creux utilisé pour fabriquer les médailles par le procédé de l'estampage.
+  - (Polymères) 1.  Continuum constitué par un polymère dans lequel se trouvent dispersées des parties non miscibles avec lui.2.  Dans un composite, liant qui assure la cohésion entre les différents éléments d'une armature formée de fibres, de tissu, etc.
+  - (Statistique) Arrangement ordonné d'un ensemble d'éléments, sous forme d'un tableau à double entrée comportant, dans le cas général, n lignes et m colonnes. (La matrice est carrée si le nombre de lignes est égal au nombre de colonnes, sinon elle est rectangulaire.)
+  - (Technique) Pièce métallique présentant un évidement destinée à la mise en forme d'un produit par découpe, déformation plastique ou par frittage et compactage. (Fabriquées par usinage électrochimique ou forçage à chaud, les matrices sont généralement en acier chromé).
+  - (Textiles) 1.  Instrument composé de deux plaques métalliques exactement superposées et percées de trous, qui sert au perçage des cartons pour les mécaniques d'armures et le métier Jacquard.2.  Poinçon, molette qui servent pour la gravure des cylindres et des planches à imprimer les tissus et les papiers peints.
+synonyms: []

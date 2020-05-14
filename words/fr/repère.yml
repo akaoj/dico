@@ -1,0 +1,13 @@
+language: fr
+word: repère
+type: nom masculin
+etymology: variante de repaire, sous l'influence du latin reperire, trouver
+definitions:
+  - 'Marque ou objet permettant de s''orienter dans l''espace, de localiser quelque chose, d''évaluer une distance, une mesure, une valeur, etc. : La poste me sert de repère pour m''orienter dans le quartier.'
+  - 'Ce qui permet de reconnaître quelque chose dans un ensemble, de localiser quelque chose dans le temps ou l''espace : Je manque de repère pour préciser la date de cet événement.'
+  - 'En apposition, indique que le terme est lui-même le repère : Une date repère.'
+  - (Géodésie) Partie centrale d'une borne géodésique, destinée à assurer la pérennité du résultat d'une mesure.
+  - (Imprimerie) Trait fin, cercle ou croix, portés sur les formes imprimantes pour assurer le repérage.
+  - (Physique) Système de coordonnées liées à un solide indéformable, permettant de déterminer la position d'un événement dans l'espace.
+  - (Technique) Marque faite à différentes pièces d'un assemblage pour les reconnaître et les ajuster.
+synonyms: []

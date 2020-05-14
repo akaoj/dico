@@ -1,0 +1,10 @@
+language: fr
+word: redondants
+type: adjectif
+etymology: bas latin redundans, -antis, superflu, du latin classique redundare, être en excès
+definitions:
+  - 'Qui est superflu dans un discours, un écrit : Des épithètes redondantes.'
+  - 'Qui présente des redondances : Style redondant.'
+  - Se dit d'un signe linguistique qui n'apporte pas d'information nouvelle, mais réitère une information déjà donnée.
+  - En informatique et dans les télécommunications, se dit d'un code qui emploie un nombre de symboles plus grand qu'il n'est nécessaire pour représenter des informations données.
+synonyms: []

@@ -1,0 +1,9 @@
+language: fr
+word: virus
+type: nom masculin
+etymology: latin virus, poison
+definitions:
+  - Agent infectieux très petit, qui possède un seul type d'acide nucléique, A.D.N. ou A.R.N., et qui ne peut se reproduire qu'en parasitant une cellule.
+  - 'Littéraire. Principe, source de contagion : Le virus révolutionnaire.'
+  - Instruction parasite ou suite d'instructions parasites introduite dans un programme informatique et susceptible d'entraîner diverses perturbations dans le fonctionnement de l'ordinateur. (Les virus informatiques sont capables de résister à certaines tentatives de destruction en se dupliquant.)
+synonyms: []

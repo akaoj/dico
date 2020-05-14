@@ -1,0 +1,11 @@
+language: fr
+word: somme
+type: nom féminin
+etymology: latin summa
+definitions:
+  - 'Résultat d''une addition : Faire la somme de deux nombres.'
+  - 'Quantité d''argent : Il me doit une somme importante.'
+  - 'Quantité, masse de quelque chose : La somme de tous nos ennuis.'
+  - 'Œuvre importante, travail considérable, en particulier lorsqu''ils font le point, la synthèse des connaissances dans un domaine : Somme philosophique.'
+  - '(Mathématiques) 1.  Nombre (entier, relatif, rationnel, réel ou complexe) qui est l''image de deux nombres a et b par l''opération addition.2.  Image d''un couple (a,b) d''éléments d''un ensemble par une opération, appelée addition, définie sur cet ensemble.3.  Pour une série convergente (un), nombre S vers lequel converge la suite (Sn) définie parSn = u1 + … + un.4.  Pour deux fonctions f et g à valeurs dans un espace muni d''une addition, fonction définie par f + g : x ↦ f(x) + g(x)'
+synonyms: []

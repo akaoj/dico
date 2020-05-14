@@ -1,0 +1,10 @@
+language: fr
+word: ordinaire
+type: adjectif
+etymology: latin ordinarius, en ordre
+definitions:
+  - 'Qui est conforme à l''ordre établi, normal, courant ; habituel : La manière ordinaire de procéder.'
+  - 'Qui ne dépasse pas le niveau commun ; banal, quelconque, médiocre : Du tissu de qualité ordinaire. C''est quelqu''un de très ordinaire.'
+  - (Mathématiques) Se dit d'un point M0 d'une courbe plane (l, f) tel que la dérivée de f (t0) = OM0 n'est pas nulle ni colinéaire à la dérivée seconde.
+  - (Optique) Dans la double réfraction, se dit de celui des deux rayons réfractés qui suit les lois de Descartes. (L'autre est le rayon extraordinaire.)
+synonyms: []

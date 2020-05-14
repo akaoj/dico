@@ -1,0 +1,9 @@
+language: fr
+word: lesquels
+type: pronom relatif
+etymology: de le, la, les et quel
+definitions:
+  - 'Comme sujet ou, quelquefois, objet direct, à la place de qui ou que, surtout quand l''accord évite l''ambiguïté sur l''antécédent que présenteraient qui ou que : Je suis allé chez la mère de mon ami, laquelle habite en Bourgogne ; dans la langue administrative : Entendre les témoins, lesquels déclarent…'
+  - 'Après une préposition (obligatoirement quand l''antécédent est un nom de chose) : Le livre dans lequel j''ai lu cette histoire.'
+  - 'À la place de dont quand celui-ci serait complément d''un nom précédé d''une préposition : Les gens au nom desquels je parle.'
+synonyms: []

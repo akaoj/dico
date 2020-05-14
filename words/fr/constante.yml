@@ -1,0 +1,11 @@
+language: fr
+word: constante
+type: nom féminin
+etymology: ""
+definitions:
+  - Quantité qui conserve toujours la même valeur ; nombre indépendant des variables, dans une équation.
+  - 'Tendance, orientation générale permanente : Les constantes d''une politique.'
+  - Valeur numérique de certaines grandeurs (températures de fusion, d'ébullition, indice de réfraction, etc.) pouvant servir à caractériser un corps pur ou un mélange.
+  - Donnée dont la nature et la valeur sont déterminées lors de l'écriture d'un programme informatique et ne doivent pas varier durant son exécution.
+  - Symbole logique possédant une dénotation. (2, par exemple, est une constante arithmétique.)
+synonyms: []

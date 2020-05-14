@@ -1,0 +1,9 @@
+language: fr
+word: simulateurs
+type: nom masculin
+etymology: ""
+definitions:
+  - Modèle matériel fonctionnant en temps réel et ayant le même comportement qu'une machine ou une installation dont on désire étudier le comportement dynamique ou enseigner la conduite.
+  - Programme mis au point pour représenter à l'aide d'un ordinateur le fonctionnement d'une machine, d'un système ou d'un phénomène avant sa construction, sa mise au point ou son utilisation.
+  - Système permettant de tester un engin spatial en recréant artificiellement sur Terre un ou plusieurs des facteurs de l'environnement qu'il rencontrera pendant son lancement ou son vol dans l'espace. (On dit aussi simulateur spatial ou chambre de simulation spatiale.)
+synonyms: []

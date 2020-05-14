@@ -1,0 +1,7 @@
+language: fr
+word: barycentre
+type: nom masculin
+etymology: ""
+definitions:
+  - Point G d'un espace affine tel que, si n points A1, A2, …, An sont affectés des coefficients m1, m2,…, mn de somme non nulle, .
+synonyms: []

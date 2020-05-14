@@ -1,0 +1,10 @@
+language: fr
+word: médiane
+type: nom féminin
+etymology: ""
+definitions:
+  - Dans un triangle, droite passant par un sommet et le milieu du côté opposé.
+  - Dans un tétraèdre, droite passant par un sommet et le centre de gravité de la face opposée. (Les médianes d'un triangle aussi bien que celles d'un tétraèdre sont concourantes en l'équibarycentre des sommets, appelé centre de gravité.)
+  - Segment limité par les deux points qui définissent les droites précédentes ; longueur de ce segment.
+  - Nombre séparant les valeurs prises par un caractère quantitatif, rangées par ordre croissant, en deux groupes tels que les sommes des effectifs y soient égales.
+synonyms: []

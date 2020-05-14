@@ -1,0 +1,13 @@
+language: fr
+word: argument
+type: nom masculin
+etymology: latin argumentum
+definitions:
+  - 'Raisonnement, preuve destinés à appuyer une affirmation : Des arguments convaincants.'
+  - 'Moyen auquel on recourt pour convaincre quelqu''un, pour l''amener à modifier sa conduite : Comme ultime argument, il sortit un billet de cinquante euros.'
+  - Grandes lignes d'une œuvre littéraire ou artistique, d'une action chorégraphique, etc.
+  - Prologue contenant l'exposition sommaire d'une pièce de théâtre.
+  - (Informatique) Paramètre transmis entre un programme appelant et un programme appelé.
+  - (Logique) Entité à laquelle s'applique une fonction et pour laquelle elle possède une valeur.
+  - (Mathématiques) 1.  Variable x, élément de départ d'une fonction.2.  Variable des fonctions hyperboliques.
+synonyms: []

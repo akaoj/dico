@@ -1,0 +1,8 @@
+language: fr
+word: radians
+type: nom masculin
+etymology: latin radius, rayon
+definitions:
+  - Unité SI de mesure d'angle (symbole rad) équivalant à l'angle qui, ayant son sommet au centre d'un cercle, intercepte, sur la circonférence de ce cercle, un arc d'une longueur égale à celle du rayon du cercle.
+  - Arc de circonférence de longueur égale au rayon.
+synonyms: []
