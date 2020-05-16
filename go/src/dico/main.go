@@ -7,12 +7,11 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
-	"strconv"
 	"strings"
 
+	"dico/cli"
 	"dico/collect"
 	dicodb "dico/db"
-	"dico/fetch"
 	"dico/search"
 	"dico/utils"
 
@@ -87,13 +86,14 @@ Note: search functionality requires a database.`
 			os.Exit(1)
 		}
 		fmt.Println("Fetching words; this may take a very long time depending on the amount of words to fetch")
-		var amount int
-		amount, err = fetch.FetchWords(ctx, os.Stdin, *languageOpt, *fetchToOpt, *fetchConcurrency)
+		var amount uint32
+		amount, err = cli.FetchWords(ctx, os.Stdin, *languageOpt, *fetchToOpt, *fetchConcurrency)
 		if err != nil {
 			fmt.Fprintln(os.Stderr, "Error: " + err.Error())
 			os.Exit(1)
 		}
-		fmt.Println(strconv.Itoa(amount) + " words fetched, stored in folder " + *fetchToOpt)
+		fmt.Print(amount)  // uint32, can't strconv.Itoa easily
+		fmt.Println(" words fetched, stored in folder " + *fetchToOpt)
 		os.Exit(0)
 	}
 

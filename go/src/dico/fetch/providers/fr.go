@@ -1,9 +1,11 @@
 package main
 
 import (
+	"errors"
 	"net/http"
 	"regexp"
 	"strings"
+	"time"
 
 	"dico/utils"
 
@@ -27,9 +29,36 @@ func (f fetcher) Fetch(rawWord string) (*utils.Word, error) {
 
 	var resp *http.Response
 
-	resp, err = http.Get("https://www.larousse.fr/dictionnaires/francais/" + rawWord)
-	if err != nil {
-		return nil, err
+	// This provider will return a 301 then a 200 for a found word and a 200 for an unknown word.
+	// Sometimes, under "high" load, it will return a 500 (which means: "we can retry in a bit").
+	// 503 and 504 will also be considered as retryable should they occur.
+	// All other status codes will be considered an error.
+	for i := 0; resp == nil && i < 10; i++ {
+		// By default, the http library will follow redirections so we won't see the 301 but only the 200.
+		// We don't need to know if we found the word or not because in both cases, the page will be parsed
+		// and if no data is found, we assume the word was not found.
+		resp, err = http.Get("https://www.larousse.fr/dictionnaires/francais/" + rawWord)
+		if err != nil {
+			return nil, err
+		}
+
+		switch resp.StatusCode {
+		case 200:
+			// resp is not nil, we will exit the loop
+		case 500, 503, 504:
+			resp = nil
+			// Don't wait on the first run (i=0) as it will most probably succeed on the second try
+			time.Sleep(time.Duration(i) * time.Second)
+			continue
+		default:
+			// Any other code: failure to retrieve the word
+			return nil, errors.New("Provider returned " + resp.Status + " for word: " + rawWord)
+		}
+	}
+
+	if resp == nil {
+		// Can't fetch the word: return no word
+		return nil, nil
 	}
 
 	var body *html.Node
