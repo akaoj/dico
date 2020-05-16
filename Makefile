@@ -7,7 +7,7 @@ SERVICE_NAME = dico
 
 include common.mk
 
-providers:
+providers: _dev_image
 	$(call container_make,providers,)
 
 shell:
