@@ -142,7 +142,9 @@ Note: search functionality requires a database.`
 	// Dictionary is available, we can prepare a connection to it (all subsequent steps will need a DB connection)
 	var db *sql.DB
 
-	db, err = sql.Open("sqlite3", dictPath)
+	// Because we don't care about safe commits (we only write when collecting and if the collect fails, we simply run
+	// it again), we disable synchronous writes so we can save LOTS of time
+	db, err = sql.Open("sqlite3", dictPath + "?_synchronous=0")
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "Error: " + err.Error())
 		os.Exit(1)

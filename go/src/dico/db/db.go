@@ -5,6 +5,7 @@ import (
 	"context"
 	"database/sql"
 	"strings"
+	"sync"
 	"text/template"
 
 	"dico/utils"
@@ -19,6 +20,21 @@ func Upsert(ctx context.Context, errChan chan error, wordsChan <-chan utils.Word
 	var err error
 	var word utils.Word
 	var doneChan chan bool = make(chan bool)
+	var wg sync.WaitGroup
+
+	var stmt *sql.Stmt
+	var tmpl *template.Template
+	var parsedTmpl bytes.Buffer
+
+	// Prepare the query before so we don't have to parse for every word
+	// Because all languages are in different tables, we have to save prepared statements for all languages so we don't
+	// lose time recreating it every time
+	var preparedStatements map[string]*sql.Stmt = make(map[string]*sql.Stmt)
+	defer func() {
+		for _, stmt = range preparedStatements {
+			stmt.Close()
+		}
+	}()
 
 	processWords := func() {
 		for word = range wordsChan {
@@ -26,19 +42,57 @@ func Upsert(ctx context.Context, errChan chan error, wordsChan <-chan utils.Word
 			case <-ctx.Done():
 				return
 			default:
-				err = upsertInto(db, word.Language, word.Word, word.Type, word.Etymology, word.Definitions, word.Synonyms)
+				var prepStmt *sql.Stmt
+				var ok bool
+
+				prepStmt, ok = preparedStatements[word.Language]
+				if ! ok {
+					tmpl, err = template.New("sqlUpsertInto").Parse(sqlUpsertInto)
+					if err != nil {
+						errChan<- err
+						return
+					}
+
+					data := struct{
+						Name string
+					}{
+						Name: word.Language,
+					}
+
+					err = tmpl.Execute(&parsedTmpl, data)
+					if err != nil {
+						errChan<- err
+						return
+					}
+
+					stmt, err = db.Prepare(parsedTmpl.String())
+					if err != nil {
+						errChan<- err
+						return
+					}
+
+					prepStmt = stmt
+					preparedStatements[word.Language] = stmt
+				}
+
+				_, err = prepStmt.Exec(word.Word, word.Type, word.Etymology, strings.Join(word.Definitions, "\n"), strings.Join(word.Synonyms, "\n"))
 				if err != nil {
-					errChan <- err
+					errChan<- err
 					return
 				}
 			}
 		}
-
-		doneChan <- false
-		close(doneChan)
+		wg.Done()
 	}
 
+	wg.Add(1)
 	go processWords()
+
+	go func() {
+		wg.Wait()
+		doneChan<- true
+		close(doneChan)
+	}()
 
 	return doneChan
 }
@@ -135,40 +189,4 @@ func Select(db *sql.DB, tableName string, word string) (words []utils.Word, err 
 	}
 
 	return words, nil
-}
-
-
-func upsertInto(db *sql.DB, name string, word string, wType string, etymology string, definitions []string, synonyms []string) error {
-	var err error
-	var stmt *sql.Stmt
-	var tmpl *template.Template
-	var parsedTmpl bytes.Buffer
-
-	tmpl, err = template.New("sqlUpsertInto").Parse(sqlUpsertInto)
-	if err != nil {
-		return err
-	}
-
-	data := struct{
-		Name string
-	}{
-		Name: name,
-	}
-
-	err = tmpl.Execute(&parsedTmpl, data)
-	if err != nil {
-		return err
-	}
-
-	stmt, err = db.Prepare(parsedTmpl.String())
-	if err != nil {
-		return err
-	}
-
-	_, err = stmt.Exec(word, wType, etymology, strings.Join(definitions, "\n"), strings.Join(synonyms, "\n"))
-	if err != nil {
-		return err
-	}
-
-	return nil
 }
