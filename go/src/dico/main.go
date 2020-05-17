@@ -181,6 +181,10 @@ Note: search functionality requires a database.`
 	var words []utils.Word
 
 	words, err = search.Search(db, *languageOpt, searchQuery)
+	if err != nil {
+		fmt.Fprintln(os.Stderr, "Error: " + err.Error())
+		os.Exit(1)
+	}
 
 	for _, v := range words {
 		fmt.Println(v.Format())
