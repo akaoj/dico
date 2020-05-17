@@ -32,6 +32,7 @@ func (f fetcher) Fetch(rawWord string) (*utils.Word, error) {
 	// This provider will return a 301 then a 200 for a found word and a 200 for an unknown word.
 	// Sometimes, under "high" load, it will return a 500 (which means: "we can retry in a bit").
 	// 503 and 504 will also be considered as retryable should they occur.
+	// 404 will be considered an unknown word.
 	// All other status codes will be considered an error.
 	for i := 0; resp == nil && i < 10; i++ {
 		// By default, the http library will follow redirections so we won't see the 301 but only the 200.
@@ -45,6 +46,9 @@ func (f fetcher) Fetch(rawWord string) (*utils.Word, error) {
 		switch resp.StatusCode {
 		case 200:
 			// resp is not nil, we will exit the loop
+		case 404:
+			// Unknown word, not an error
+			return nil, nil
 		case 500, 503, 504:
 			resp = nil
 			// Don't wait on the first run (i=0) as it will most probably succeed on the second try
