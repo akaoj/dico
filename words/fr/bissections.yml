@@ -1,0 +1,8 @@
+language: fr
+word: bissections
+type: nom féminin
+etymology: ""
+definitions:
+  - Action de bissecter ; résultat de cette action.
+  - Méthode itérative de calcul de la racine d'une fonction continue dans un intervalle fini consistant à chaque étape, à diviser par deux la longueur de l'intervalle contenant la racine.
+synonyms: []

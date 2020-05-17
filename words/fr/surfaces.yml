@@ -1,0 +1,13 @@
+language: fr
+word: surfaces
+type: nom féminin
+etymology: de sur et face, d'après latin superficies
+definitions:
+  - 'Étendue plane, mesure de cette étendue : Calculer la surface d''un salon.'
+  - 'Partie, face extérieure d''un corps, d''un liquide : Surface raboteuse d''une planche. Sous-marin qui remonte à la surface.'
+  - 'Niveau du sol ferme de la terre, par opposition au sous-sol : Spéléologues qui remontent à la surface.'
+  - 'Extérieur, apparence des choses : Ne considérer que la surface des événements.'
+  - 'Familier. Position sociale reconnue ; crédit : Avoir de la surface.'
+  - (Comptabilité) Ensemble des fonds propres d'une entreprise.
+  - (Mathématiques) 1.  Ensemble de points, limite ou frontière d'une portion d'espace.2.  Image, dans un espace affine E de dimension supérieure ou égale à trois, d'une partie A de ℝ2 par g, application de A dans E, telle que (A, g) est une surface paramétrée.
+synonyms: []

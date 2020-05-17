@@ -1,0 +1,7 @@
+language: fr
+word: flops
+type: nom masculin
+etymology: acronyme de l'anglais Floating Point Operations Per Second
+definitions:
+  - Unité de mesure de la puissance d'un ordinateur correspondant au nombre d'opérations en virgule flottante qu'il effectue par seconde. (En pratique, on utilise le mégaflops [Mflops], qui vaut 106 flops, et le gigaflops [Gflops], qui vaut 109 flops.)
+synonyms: []

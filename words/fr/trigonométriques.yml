@@ -1,0 +1,9 @@
+language: fr
+word: trigonométriques
+type: adjectif
+etymology: ""
+definitions:
+  - Relatif à la trigonométrie.
+  - Se dit d'une fonction circulaire ou d'une fonction circulaire réciproque.
+  - Se dit d'une série dont le terme général est de la forme un (x) = an cos nx + bn sin nx, où an et bn sont deux nombres réels (ou complexes).
+synonyms: []

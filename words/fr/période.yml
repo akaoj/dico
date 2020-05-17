@@ -1,0 +1,17 @@
+language: fr
+word: période
+type: nom féminin
+etymology: latin periodus, du grec periodos, chemin autour
+definitions:
+  - 'Espace de temps plus ou moins long que l''on envisage soit du point de vue de sa durée, soit du point de vue de sa situation dans un espace de temps plus long : Partir pour une période de deux ans. Pendant la période des fêtes.'
+  - 'Intervalle de temps, moment d''une œuvre, d''une carrière, d''une vie, caractérisés par certains événements ou certains aspects : Une période difficile de ma vie. La période rose de Picasso.'
+  - 'Moment de la vie de quelqu''un où il manifeste un vif engouement pour quelque chose ou quelqu''un (avec un nom apposé) : Elle a eu sa période opéra.'
+  - (Biologie) Temps nécessaire pour qu'une quantité donnée d'une substance diminue de moitié.
+  - (Chimie) Ensemble des éléments figurant, dans le tableau périodique, entre deux gaz rares successifs.
+  - (Géologie) Unité géochronologique correspondant, d'un point de vue chronostratigraphique, au système et qui se place hiérarchiquement entre l'ère et l'époque.
+  - '(Mathématiques) Plus petit nombre T tel que la fonction f vérifie f(x + T) = f(x) pour tout x. (Pour étudier une fonction f possédant une période T, il suffit de se restreindre à un intervalle d''étendue T. Les fonctions circulaires sont des exemples de fonctions périodiques : la période est 2π pour sin et cos, et π pour tg et cotg.)'
+  - (Musique) Fragment d'une phrase musicale.
+  - (Pathologie) Chacune des phases d'une maladie aiguë, ou chacun des stades d'évolution d'une maladie chronique.
+  - (Physique) 1.  Intervalle de temps constant après lequel, dans l'évolution d'un phénomène dit périodique, une grandeur reprend de nouveau la même valeur.2.  Évolution du phénomène pendant cet intervalle.3.  Inverse de la fréquence d'un phénomène périodique.
+  - (Rhétorique) Phrase composée de plusieurs propositions présentant un enchaînement et un rythme harmonieux.
+synonyms: []

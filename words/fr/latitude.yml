@@ -1,0 +1,11 @@
+language: fr
+word: latitude
+type: nom féminin
+etymology: latin latitudo, -inis, largeur
+definitions:
+  - 'Liberté entière, faculté d''agir à son gré : Vous avez toute latitude pour régler la question.'
+  - 'Lieu considéré du point de vue de sa distance à l''équateur et des conséquences physiques qui en résultent ; climat : On pense différemment sous d''autres latitudes.'
+  - (Astronomie et géodésie) Dans un système de coordonnées sphériques, distance angulaire d'un point au plan fondamental, comptée à partir du plan fondamental, de 0 à ± 90°.
+  - (Géographie et marine) Angle formé, en un point donné de la surface terrestre, par la verticale du lieu avec le plan de l'équateur, et compté de 0 à ± 90° à partir de l'équateur, positivement vers le nord, négativement vers le sud.
+  - (Mathématiques) Réel égal à πs2 − ψ où ψ est la troisième coordonnée sphérique.
+synonyms: []

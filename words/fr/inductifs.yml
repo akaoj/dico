@@ -1,0 +1,8 @@
+language: fr
+word: inductifs
+type: adjectif
+etymology: latin inductivus, de inducere, induire
+definitions:
+  - Qui procède par induction.
+  - Se dit d'un circuit électrique dont la grandeur essentielle est l'inductance.
+synonyms: []

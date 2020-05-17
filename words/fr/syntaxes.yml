@@ -1,0 +1,10 @@
+language: fr
+word: syntaxes
+type: nom féminin
+etymology: bas latin syntaxis, du grec suntaksis, ordre
+definitions:
+  - Partie de la grammaire qui décrit les règles par lesquelles les unités linguistiques se combinent en phrases.
+  - Ensemble de ces règles qui sont caractéristiques de telle ou telle langue.
+  - En logique, étude des relations formelles entre expressions d'un langage. (La donnée du vocabulaire, des règles de formation et des axiomes et règles d'inférence d'un système est appelée syntaxe de ce système.)
+  - Ensemble des règles d'écriture d'un programme informatique permises dans un langage de programmation et formant la grammaire de ce langage.
+synonyms: []
