@@ -9,9 +9,10 @@ All words are available within each language folder.
 A word file is a YAML file which defines:
 
 ```yaml
-language: en
+# words/en/banana.yaml
 word: banana
-type: noun
+language: en
+kind: noun
 etymology: From Wolof banaana, via Spanish or Portuguese.
 definitions:
   - An elongated curved tropical fruit that grows in bunches and has a creamy flesh and a smooth skin.
