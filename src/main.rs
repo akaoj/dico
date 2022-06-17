@@ -1,4 +1,5 @@
 use std::path::PathBuf;
+use std::io;
 
 use clap::Parser;
 
@@ -39,6 +40,10 @@ struct Args {
 	/// Amount of concurrent fetches to the provider. Defaults to 50.
 	#[clap(long)]
 	fetch_concurrency: Option<u16>,
+
+	/// Run dico as a REST HTTP API, listening to the given host:port.
+	#[clap(long)]
+	api: Option<String>,
 }
 
 fn main() {
@@ -68,10 +73,23 @@ fn run() -> Result<(), DicoError> {
 		return Ok(())
 	}
 	else if let Some(path_str) = args.fetch {
+		let stdin = io::stdin();
 		let path = PathBuf::from(path_str);
-		let amount = fetch::fetch(&path, &args.language)?;
+		let amount = fetch::fetch(stdin, &path, &args.language)?;
 		println!(r#"Retrieved {a} words from "{l}" online dictionary"#, a=amount, l=args.language);
 		return Ok(())
+	}
+	else if let Some(address) = args.api {
+		let host_port: Vec<&str> = address.split(":").collect();
+
+		if host_port.len() != 2 {
+			return Err(DicoError::new(format!(r#"The address {a} is not valid"#, a=&address)))
+		}
+		let (host, port) = (host_port[0], host_port[1]);
+
+		println!("The API server is listening on {h}:{p}", h=host, p=port);
+		api::serve(host, port);
+		Ok(());
 	}
 	else {
 		let word = args.word.unwrap_or_else(|| "".to_owned());
